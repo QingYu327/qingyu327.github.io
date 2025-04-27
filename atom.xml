@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://cjhong.top</id>
+    <title>踏雪寻梅</title>
+    <updated>2024-12-21T14:36:34.263Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://cjhong.top"/>
+    <link rel="self" href="https://cjhong.top/atom.xml"/>
+    <subtitle>唯有爱与科技不可被辜负
+</subtitle>
+    <logo>https://cjhong.top/images/avatar.png</logo>
+    <icon>https://cjhong.top/favicon.ico</icon>
+    <rights>All rights reserved 2024, 踏雪寻梅</rights>
+    <entry>
+        <title type="html"><![CDATA[Lively Wallpaper使用]]></title>
+        <id>https://cjhong.top/livelywallpaper/</id>
+        <link href="https://cjhong.top/livelywallpaper/">
+        </link>
+        <updated>2023-08-29T12:13:00.000Z</updated>
+        <content type="html"><![CDATA[<p>1.软件介绍<br>
+Lively Wallpaper是一款免费的视频桌面壁纸设置软件，功能和Wallpaper Engine类似，并且兼容Wallpaper Engine的视频包文件，不过视频包只能自己寻找或者社区下载。</p>
+<p>2.使用说明<br>
+可以将视频和GIF文件，模拟器，HTML，网址和着色器，游戏转换为Windows桌面墙纸；当运行全屏应用程序/游戏时，墙纸将完全暂停播放（0％的CPU和GPU使用率）</p>
+<p>3.软件特点<br>
+简单易用，拖放多媒体文件/网页等到 Lively 窗口上即可设置为动态壁纸；<br>
+支持视频硬件加速播放，基于MPV Player技术；<br>
+支持交互的 WebGL壁纸，基于轻量的Chromium引擎 Cef；<br>
+使用了Windows 10fluent 设计，完美适应系统的主题配置<br>
+使用 C# (.Net 核心) 开发，完全原生应用，性能高效稳定<br>
+完全开源且免费，没有任何收费项</p>
+<p>4.性能和特性<br>
+当运行全屏程序和游戏时，Lively Wallpaper 会自动停止动态效果节省资源<br>
+可根据前台应用来设置动态壁纸的播放规则<br>
+完美支持多显示器、支持 HiDPI 分辨率、超宽纵横比等<br>
+可将一张动态壁纸分割到多台显示上播放<br>
+支持动态壁纸在多台显示器上同时镜像播放<br>
+支持不同的屏幕显示多个不同的动态壁纸</p>
+<h1 id="我以上一篇文章为例来演示一遍">我以上一篇文章为例，来演示一遍</h1>
+<div style="position: relative; padding: 30% 45%;">
+    <iframe style="
+        position: absolute; 
+        width: 100%; 
+        height: 100%; 
+        left: 0; top: 0;" 
+        src="/necc/1.mp4" 
+        scrolling="no" 
+        border="0" 
+        frameborder="no" 
+        framespacing="0" 
+        allowfullscreen="true">
+    </iframe>
+</div> 
+<h1 id="首先我们先打开软件如图所示随后点击右上角加号添加壁纸">首先我们先打开软件，如图所示，随后点击右上角加号，添加壁纸</h1>
+<figure data-type="image" tabindex="1"><img src="https://cjhong.top/post-images/1693318287062.png" alt="" loading="lazy"></figure>
+<h1 id="我们将压缩包解压后的文件中的html结尾的文件拖进区域里面或者直接点击选取">我们将压缩包解压后的文件中的HTML结尾的文件拖进区域里面或者直接点击选取</h1>
+<figure data-type="image" tabindex="2"><img src="https://cjhong.top/post-images/1693318322709.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="https://cjhong.top/post-images/1693318338227.png" alt="" loading="lazy"></figure>
+<h1 id="随后会加载出壁纸最后点击确认等待一段时间即可完成壁纸切换">随后会加载出壁纸最后点击确认，等待一段时间即可完成壁纸切换</h1>
+<figure data-type="image" tabindex="4"><img src="https://cjhong.top/post-images/1693318365724.png" alt="" loading="lazy"></figure>
+<h1 id="最后如图效果">最后如图效果</h1>
+<figure data-type="image" tabindex="5"><img src="https://cjhong.top/post-images/1693318403423.png" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[高考倒计时背景（基于HTML/CSS+JS实现）]]></title>
+        <id>https://cjhong.top/necczz/</id>
+        <link href="https://cjhong.top/necczz/">
+        </link>
+        <updated>2023-08-29T11:31:52.000Z</updated>
+        <content type="html"><![CDATA[<p>作为一名合格的高三牲，高考就是我们现今的最大目标，那高考倒计时也肯定是少不了的，但是个人认为手写的倒计时过于古老且不智能，不能实时更新，过于麻烦，同时也受提醒，所以就有现在这个想法。而且刚换了新平台，不折腾一下说不过去</p>
+<p>接下来就是就是寻找别人的轮子了，换个皮就是自己的【乐】，找了很久才发现一个比较好，且符合个人审美的，但是问题也比较多，就比如中间那个大框特别碍眼，而且添加背景后，只能显示局部不能拉伸全屏，这就让人很不爽</p>
+<p>经过艰苦的修改后，将这个大框去掉，然后图片可以正常显示，还加了一个看板娘添加活力，但是有时加载不出来，效果如图且代码如下<br>
+<a href="https://www.cnblogs.com/cairbin/p/13535781.html">这是作者原帖</a></p>
+<figure data-type="image" tabindex="1"><img src="https://cjhong.top/post-images/1693309526709.png" alt="" loading="lazy"></figure>
+<h1 id="html">HTML</h1>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;meta charset=&quot;utf-8&quot; /&gt;
+        &lt;title&gt;Countdown to NCEE&lt;/title&gt;
+        &lt;link rel=&quot;stylesheet&quot; href=&quot;css/1.css&quot;&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;div class=&quot;container&quot;&gt;
+             &lt;h2&gt;&lt;span&gt;Countdown to NCEE&lt;/span&gt; 2023&lt;/h2&gt;
+             &lt;div class=&quot;countdown&quot;&gt;
+                 &lt;div id=&quot;day&quot;&gt;NA&lt;/div&gt;
+                 &lt;div id=&quot;hour&quot;&gt;NA&lt;/div&gt;
+                 &lt;div id=&quot;minute&quot;&gt;NA&lt;/div&gt;
+                 &lt;div id=&quot;second&quot;&gt;NA&lt;/div&gt;
+             &lt;/div&gt;
+         &lt;/div&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+
+    function getEndTime(myYear){
+        var myEndTime = new Date(''+myYear+'/06/07 00:00:00');//更改日期
+        return myEndTime;
+    }
+
+    function countDown(){
+        var mydate = new Date();
+        var year = '2023';
+        var EndTime = getEndTime(year);
+        var NowTime = new Date();
+        if( (EndTime.getTime() - NowTime.getTime() ) &lt; 0){
+            year = mydate.getFullYear() + 1;
+            EndTime = getEndTime(year);
+        }
+        var t = EndTime.getTime() - NowTime.getTime();
+
+
+
+        var d=Math.floor(t/1000/60/60/24);
+        var h=Math.floor(t/1000/60/60%24);
+        var m=Math.floor(t/1000/60%60);
+        var s=Math.floor(t/1000%60);
+
+        document.getElementById('day').innerText = d;
+        document.getElementById('hour').innerText = h;
+        document.getElementById('minute').innerText = m;
+        document.getElementById('second').innerText = s;
+    } 
+    setInterval(countDown,1000);
+&lt;/script&gt;
+
+&lt;!-- 看板娘管理 --&gt;
+
+&lt;script src=&quot;https://l2dwidget.js.org/lib/L2Dwidget.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+	L2Dwidget
+	.on('*', (name) =&gt; {
+	console.log('%c EVENT ' + '%c -&gt; ' + name, 'background: #222; color: yellow', 'background: #fff; color: #000')
+	})
+	.init({
+		display: {
+			// 居左
+			&quot;position&quot;: &quot;right&quot;,
+			// 宽度
+			&quot;width&quot;: 150,
+			// 高度
+			&quot;height&quot;: 250,
+			// 距左右
+			&quot;hOffset&quot;: 10,
+			// 距下
+			&quot;vOffset&quot;: 40
+		},
+ 
+		mobile: {
+			// 移动端，false为关闭
+			&quot;show&quot;: true,
+			&quot;scale&quot;: 0.5
+		},
+ 
+		dialog: {
+		// 开启对话框，false为关闭
+			enable: true,
+			script: {
+				// 每空闲 10 秒钟，显示一条一言
+				'every idle 10s': '$hitokoto$',
+				// 当触摸到角色身体
+				'tap body': '哎呀！别碰我！',
+				// 当触摸到角色头部
+				'tap face': '你干嘛，哎呦。'
+			}
+		}
+	});
+&lt;/script&gt;
+
+
+&lt;!--由江鸟更改部分代码，修正了背景图不能全屏 --&gt;
+</code></pre>
+<h1 id="css">CSS</h1>
+<pre><code>@import url(&quot;https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&quot;);
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+    background: url(../image/bg.jpg); 
+    background-attachment: fixed;
+    background-blend-mode: hard-light;
+    -webkit-background-size: cover;
+    -o-background-size: cover;                
+    background-size: cover;
+
+}
+
+.container{
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    right: 100px;
+    bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container h2 {
+    text-align: center;
+    font-size: 10em;
+    line-height: 0.7em;
+    color: #333;
+    margin-top: -80px;
+}
+
+.container h2 span{
+    display: block;
+    font-weight: 300;
+    letter-spacing: 6px;
+    font-size: 0.2em;
+}
+.countdown{
+    display: flex;
+    margin-top: 50px;
+}
+.countdown div{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background: #333;
+    color: #fff;
+    margin: 0 15px;
+    font-size: 3em;
+    font-weight: 500;
+}
+.countdown div:before{
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    width: 100%;
+    height: 35px;
+    background: rgb(16, 187, 209);
+    color: #ffffff;
+    font-size: 0.35em;
+    line-height: 35px;
+    font-weight: 300;
+}
+.container #day:before{
+    content: 'Days';
+}
+.container #hour:before{
+    content: 'Hours';
+}
+.container #minute:before{
+    content: 'Minutes';
+}
+.container #second:before{
+    content: 'Seconds';
+}
+</code></pre>
+<p>去b站闲逛的时候又发现一个比较好看的，又是修改修改，我这里放上来，如下所示<br>
+<a href="https://www.bilibili.com/video/BV1Tb411d7ru/?spm_id_from=333.880.my_history.page.click&amp;vd_source=c5440bddf5fb910e7a2adeef0914761f">这是作者视频</a></p>
+<figure data-type="image" tabindex="2"><img src="https://cjhong.top/post-images/1693311023901.png" alt="" loading="lazy"></figure>
+<p>这次就不一一放出代码了，我将其打包放在网盘，需要的可以直接下载</p>
+<p><a href="https://www.123pan.com/s/7GHSVv-t0xod.html">源码下载</a><br>
+<a href="https://www.123pan.com/s/7GHSVv-i0xod.html">软件下载</a></p>
+<h1 id="下载帮助">下载帮助</h1>
+<figure data-type="image" tabindex="3"><img src="https://cjhong.top/post-images/1724213800104.png" alt="" loading="lazy"></figure>
+<p>这里也提供了在线链接，我做了有两个</p>
+<p><a href="https://cjhong.top/necc/1/">传送门1</a><br>
+<a href="https://cjhong.top/necc/2/">传送门2</a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MIUI优化]]></title>
+        <id>https://cjhong.top/miui/</id>
+        <link href="https://cjhong.top/miui/">
+        </link>
+        <updated>2023-07-17T05:33:53.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="广告及不必要的消息推送去除">广告及不必要的消息推送去除</h1>
+<p><strong>1、应用商店</strong></p>
+<p>打开应用商店-我的-右上角设置-通知设置-将“新手帮助”和“推送消息”关闭。</p>
+<p>我的-右上角设置-推荐-将“个性化推荐”和“相关推荐”关闭。</p>
+<p><strong>2、主题壁纸</strong></p>
+<p>打开主题壁纸-我的-右上角设置-将“个性化推荐”关闭。</p>
+<p><strong>3、手机管家</strong><br>
+打开手机管家-安全中心-右上角设置-将“推荐内容”关闭。</p>
+<p>“垃圾清理”-右上角设置-将“推荐内容”关闭。</p>
+<p>“应用管理”-右上角菜单栏（3个竖点）-将“资源推荐关闭”。</p>
+<p><strong>4、日历</strong></p>
+<p>打开日历-右上角菜单栏（3个竖点）-设置-用户体验计划-将“内容推广”关闭。</p>
+<p><strong>5、天气</strong></p>
+<p>打开天气-右上角菜单栏（3个竖点）-设置-用户体验计划-将“天气视频卡片”、“今日资讯卡片”、“天气服务推荐”三个全部关闭。</p>
+<p><strong>6、浏览器(若不必要可删，更换更好的浏览器)</strong></p>
+<p>打开浏览器-菜单-设置-将“接收消息通知”关闭。</p>
+<p>设置-主页设置-将“资讯页面刷新按钮”和“个性化推荐”关两个闭，或者直接选择上面的简洁版或自定义。</p>
+<p><strong>7、下载管理</strong></p>
+<p>打开下载管理-右上角菜单栏（3个竖点）-设置-信息流设置-将“资源推荐”和“热榜推荐”全部关闭。</p>
+<p><strong>8、设置</strong></p>
+<p>打开设置-小米账号-隐私协议等-系统广告-将“系统工具广告”关闭。</p>
+<p><strong>9、音乐(若不必要可删)</strong></p>
+<p>打开音乐-左上角菜单栏-设置-将“个性化内容推荐”关闭。通知设置-将“通知提醒”关闭。</p>
+<p><strong>10、小米视频(若不必要可删)</strong></p>
+<p>打卡小米视频-我的-右上角设置-消息与推送-将“未读消息”、“接收小米推送”、“接收置顶消息”三个全部关闭。</p>
+<p><strong>11、闹钟</strong></p>
+<p>在建立了闹钟的情况下，点击主界面时间进入闹钟-右上角菜单栏（3个竖点）-生活早报-将“开启生活早报”关闭。</p>
+<p><strong>12、小爱同学</strong></p>
+<p>打开小爱同学-右上角设置-关于小爱-隐私开关-将“个性化服务”关闭。</p>
+<p>至于小米商城和小米社区这两个软件，如果需要的保留话，可以关闭一系列广告和推送。</p>
+<p><strong>13、小米商城(若不必要可删)</strong></p>
+<p>打开小米商城-我的-右上角设置-消息推送-将“消息推送”关闭，如果想接收消息，也可以设置免打扰的时间段。</p>
+<p><strong>14、小米社区(若不必要可删)</strong></p>
+<p>打开小米社区-我的-设置-高级设置-将“个性化推荐”和“信息流广告”两个关闭。</p>
+<p><strong>进一步精简优化系统</strong></p>
+<p>1、关闭负一屏和桌面搜索框(没有需求可以关闭此功能）</p>
+<p>打开设置-桌面-将“智能助理”和“桌面搜索框”两个都关闭。</p>
+<p><strong>2、关闭软件的自启动（注：如果微信有消息收接精准要求，不建议关掉自启动，会影响消息推送）</strong></p>
+<p>打开设置-应用设置-应用管理-权限-自启动管理-关闭软件的自启动。</p>
+<p><strong>3、卸载完软件后其实并没有完全卸载干净，要进入文件管理，找到残留的文件夹将其删除。</strong></p>
+<h1 id="说明系统应用不可卸载需要使用adb命令卸载或冻结新手和小白不建议自己上手">说明:系统应用不可卸载，需要使用adb命令卸载或冻结，新手和小白不建议自己上手</h1>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[博客添加Aplayer音乐播放器]]></title>
+        <id>https://cjhong.top/aplayer/</id>
+        <link href="https://cjhong.top/aplayer/">
+        </link>
+        <updated>2023-02-24T02:43:43.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="演示图片">演示图片</h1>
+<figure data-type="image" tabindex="1"><img src="https://cjhong.top/post-images/1677209522092.png" alt="" loading="lazy"></figure>
+<h1 id="使用">使用</h1>
+<p>直接将下列代码插入网页的js即可</p>
+<h1 id="注意事项">注意事项</h1>
+<p>插入可能造成与原来js冲突，影响全局，请谨慎使用！</p>
+<h1 id="实例代码">实例代码</h1>
+<pre><code>&lt;!-- require APlayer --&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;https://npm.elemecdn.com/aplayer@1.10.1/dist/APlayer.min.css&quot;&gt;
+&lt;script src=&quot;https://npm.elemecdn.com/aplayer@1.10.1/dist/APlayer.min.js&quot;&gt;&lt;/script&gt;
+&lt;!-- require MetingJS --&gt;
+&lt;script src=&quot;https://npm.elemecdn.com/meting@2.0.1/dist/Meting.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;meting-js 
+    fixed=&quot;true&quot; 
+    autoplay=&quot;false&quot; 
+    list-folded=&quot;true&quot; 
+    server=&quot;netease&quot; 
+    type=&quot;playlist&quot; 
+    id=&quot;网易云歌单ID&quot;&gt;
+  &lt;/meting-js&gt;
+</code></pre>
+<h1 id="歌单id获取">歌单ID获取</h1>
+<p>如：https://music.163.com/#/my/m/music/playlist?id=<code>2884035</code></p>
+<p>例如一个歌单链接，被红色标记的数字即为ID，可在网页链接中复制</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[为 Windows 10/11 安装免费 HEVC/H.265 视频扩展]]></title>
+        <id>https://cjhong.top/video/</id>
+        <link href="https://cjhong.top/video/">
+        </link>
+        <updated>2023-01-06T00:00:05.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="起因">起因</h1>
+<p><strong>Windows用系统自带播放器打开 HEVC （H.265编码）格式视频时，提示缺少编码器无法播放，如图</strong></p>
+<figure data-type="image" tabindex="1"><img src="https://cjhong.top/post-images/1672971869740.png" alt="" loading="lazy"></figure>
+<h1 id="经过">经过</h1>
+<p><strong>这时Windows媒体播放器提示我下载HEVC/H.265 视频扩展，我去微软商店一看</strong></p>
+<figure data-type="image" tabindex="2"><img src="https://cjhong.top/post-images/1672971903574.png" alt="" loading="lazy"></figure>
+<h1 id="wc你怎么不去抢呢">wc，你怎么不去抢呢</h1>
+<p><strong>算了算了，我家境贫寒，买不起，于是我上网搜了许多教程，如以下两种</strong></p>
+<figure data-type="image" tabindex="3"><img src="https://cjhong.top/post-images/1672972076275.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="4"><img src="https://cjhong.top/post-images/1672972085730.png" alt="" loading="lazy"></figure>
+<p><strong>但是这个这两种方法已经被微软商店屏蔽了，如图</strong></p>
+<figure data-type="image" tabindex="5"><img src="https://cjhong.top/post-images/1672972273838.png" alt="" loading="lazy"></figure>
+<p><strong>于是我翻了其他的教程，找到了突破点，用微软商店软件获取网站获取微软商店的安装包，成功提取这个扩展的安装包，为了方便，我直接将这个扩展包分享出来直接下载，解压后双击安装即可</strong></p>
+<p>下载链接：<a href="https://wwld.lanzoul.com/ib0Lg0k8rugh">点击下载</a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[博客引用B站视频]]></title>
+        <id>https://cjhong.top/bilibili/</id>
+        <link href="https://cjhong.top/bilibili/">
+        </link>
+        <updated>2022-07-24T04:19:12.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="b站链接的参数">B站链接的参数</h1>
+<p><strong>说明</strong></p>
+<p>例如：player.bilibili.com/player.html?<code>aid</code>=81148317&amp;<code>cid</code>=138878361&amp;<code>page</code>=1</p>
+<p><code>aid </code>               	  视频ID 就是B站的av号</p>
+<p><code>cid</code>	                  应该是客户端的id,clientid的缩写（推测）</p>
+<p><code>page</code>	            第几个视频 也就是分P的 默认是1</p>
+<p><code>as_wide</code>	          是否宽屏 1：宽屏 0：小屏</p>
+<p><code>high_quality</code>	视频质量 1：最高视频质量 0：最低视频质量</p>
+<p><code>danmaku</code>	        是否开启弹幕 1：开启（默认） 0：关闭</p>
+<h1 id="修改默认视频质量">修改默认视频质量</h1>
+<p>B站默认视频质量是最低的，可以通过在src链接后面添加<code>&amp;high_quality=1</code>来设置</p>
+<h1 id="阻止跳转b站">阻止跳转B站</h1>
+<p>在网页上, 用户选择清晰度, 或者点击视频上面的一些图标, 会跳转到B站. 这个可通过设置 iframe 的 <code>sandbox</code> 属性去禁止<br>
+如：<br>
+<code>sandbox=&quot;allow-top-navigation allow-same-origin allow-forms allow-scripts&quot;</code></p>
+<h1 id="通用视频插入框架">通用视频插入框架</h1>
+<pre><code>&lt;div style=&quot;position: relative; padding: 30% 45%;&quot;&gt;
+    &lt;iframe style=&quot;
+        position: absolute; 
+        width: 100%; 
+        height: 100%; 
+        left: 0; top: 0;&quot; 
+        src=&quot;视频链接（&amp;high_quality=1）--若为b站视频则加上这一参数&quot; 
+        scrolling=&quot;no&quot; 
+        border=&quot;0&quot; 
+        frameborder=&quot;no&quot; 
+        framespacing=&quot;0&quot; 
+        allowfullscreen=&quot;true&quot;&gt;
+    &lt;/iframe&gt;
+&lt;/div&gt; </code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2021总结]]></title>
+        <id>https://cjhong.top/2022/</id>
+        <link href="https://cjhong.top/2022/">
+        </link>
+        <updated>2022-04-03T17:08:48.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="这一年">这一年</h1>
+<p>1.我成功复刻了bilibili小电视，有一说一比较简单，就是代码部分令人抓狂 ；</p>
+<p>2.成功入坑游戏手柄，不过并不怎么好用，不支持360模式，好多游戏玩不了;</p>
+<p>3.电视盒子刷机，并以此开始学习liunx系统 ；</p>
+<p>4.拥有了第一个移动硬盘，开始数据备份之路;</p>
+<p>5.淘了一台z3735f的主板，只要75，捡漏了；</p>
+<p>6.建成了我第一个个人网站，我取名为<a href="https://xiuhong.ltd">云深不知处</a></p>
+<figure data-type="image" tabindex="1"><img src="https://cjhong.top/post-images/1670742519352.png" alt="" loading="lazy"></figure>
+<p>7.第一个在bilibili发布的视频，主要为我在搭建网站时的经验教训</p>
+<div style="position: relative; padding: 30% 45%;">
+    <iframe style="
+        position: absolute; 
+        width: 100%; 
+        height: 100%; 
+        left: 0; top: 0;" 
+        src="//player.bilibili.com/player.html?aid=765910983&bvid=BV1tr4y1e75b&cid=493840721&page=1&high_quality=1" 
+        scrolling="no" 
+        border="0" 
+        frameborder="no" 
+        framespacing="0" 
+        allowfullscreen="true">
+    </iframe>
+</div>
+</br>
+<p>8.摔坏了两台机，两个都是一模一样的，服了.......</p>
+<p>9.遇到了一群有趣的灵魂 ......</p>
+<h1 id="十年饮冰难凉热血">十年饮冰，难凉热血</h1>
+<p><strong>新的一年，保持热爱，奔赴星海，所念皆星河 。</strong></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USB无线网卡改造]]></title>
+        <id>https://cjhong.top/wifi-usb/</id>
+        <link href="https://cjhong.top/wifi-usb/">
+        </link>
+        <updated>2022-04-03T16:23:21.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="首先去嘉立创画pcb">首先去嘉立创画pcb</h1>
+<h1 id="pcb原理图">pcb原理图</h1>
+<figure data-type="image" tabindex="1"><img src="https://cjhong.top/post-images/1670742404513.png" alt="" loading="lazy"></figure>
+<h1 id="3d渲染图">3D渲染图</h1>
+<figure data-type="image" tabindex="2"><img src="https://cjhong.top/post-images/1670742412903.png" alt="" loading="lazy"></figure>
+<h1 id="长度信息">长度信息</h1>
+<figure data-type="image" tabindex="3"><img src="https://cjhong.top/post-images/1670742433600.jpg" alt="" loading="lazy"></figure>
+<h1 id="介绍">介绍</h1>
+<p>芯片型号:RT3070L<br>
+驱动:免驱<br>
+带宽:150Mbps</p>
+<h1 id="用途">用途</h1>
+<p>主要是用在学校那个教学平台，那个平台也奇怪，有线网只能用在光猫上，接路由器的话识别不了。<br>
+想玩平板只能连无线网，只能破费了。</p>
+<h1 id="5月12日">5月12日</h1>
+<p>后续:这玩意对平台一点效用都没有，同个局域网依然连不上 ，这应该是平台的问题了</p>
+<h1 id="最后">最后</h1>
+<p>手残焊废，寄了</p>
+<h1 id="反转">反转</h1>
+<p>飞线又救回来了,换个壳接着用，嘿嘿</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[稚晖君-保持热爱，奔赴星海]]></title>
+        <id>https://cjhong.top/zhihuijun/</id>
+        <link href="https://cjhong.top/zhihuijun/">
+        </link>
+        <updated>2022-01-22T14:48:37.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://cjhong.top/post-images/1686046379464.jpg" alt="" loading="lazy"></figure>
+<h1 id="人物简介">人物简介</h1>
+<p>彭志辉，江西吉安人，科技圈知名KOL，人称“稚晖君”“野生钢铁侠”</p>
+<h1 id="人物经历">人物经历</h1>
+<ul>
+<li>
+<p>1993年，出生于江西吉安</p>
+</li>
+<li>
+<p>2015年，本科毕业于电子科技大学生命科学与技术学院</p>
+</li>
+<li>
+<p>2018年，研究生毕业于电子科技大学信息与通信工程学院；毕业后就职于OPPO研究院AI实验室担任算法工程师</p>
+</li>
+<li>
+<p>2020年底，加入华为，从事昇腾AI芯片和AI算法相关研究工作</p>
+</li>
+<li>
+<p>2022年12月27日，离开华为，开始创业</p>
+</li>
+</ul>
+<h1 id="稚晖的个人站">稚晖的个人站</h1>
+<p><a href="https://pengzhihui.xyz/">https://pengzhihui.xyz/已失效</a></p>
+<p><a href="http://www.lindum.top:4000/">高仿站，可以访问</a></p>
+<h1 id="亿点点成就">亿点点成就</h1>
+<ul>
+<li>2022年1月，获得哔哩哔哩“2021年度百大UP主”称号</li>
+</ul>
+<figure data-type="image" tabindex="2"><img src="https://cjhong.top/post-images/1686045404164.webp" alt="" loading="lazy"></figure>
+<ul>
+<li>在祝融号着陆火星一步实现绕、落、巡之际，作为青年代表对话天问一号总设计师张荣桥老师</li>
+</ul>
+<figure data-type="image" tabindex="3"><img src="https://cjhong.top/post-images/1686045340309.png" alt="" loading="lazy"></figure>
+<h1 id="稚晖君作品">稚晖君作品</h1>
+<p><a href="https://cjhong.top/pengzhihui/">点击跳转</a></p>
+<h1 id="他对自己的评价">他对自己的评价</h1>
+<ul>
+<li>野生钢铁侠，科技教徒，创新爱好者😆</li>
+<li>18年毕业于UESTC，两次在校创业经历，曾就职于OPPO研究院AI实验室，后通过“天才少年计划”加入华为</li>
+<li>AI算法工程师，软硬件兼攻极客一只，热爱一切电子相关技术</li>
+<li>目前正致力于自研深度学习推理框架与移动计算平台的异构加速相关技术</li>
+<li>对机器人、IoT、各种软硬件系统和机器学习相关技术经验丰富</li>
+<li>灵魂画手，业余工业设计爱好者，有自以为是的审美</li>
+<li>Arduino中文社区版主 ，B站科技区知名大鸽子</li>
+<li>喜欢干脆面和可乐，对花椰菜有着绝对不食用的观点</li>
+<li>爱玩吉他和口琴，正在学摄影</li>
+</ul>
+<p><strong>四川在线评</strong></p>
+<ul>
+<li>彭志辉是一个很乐观的人，从来不会觉得生活、学习中的坎坷是人生的挫折。同时，彭志辉很擅长折腾。彭志辉是一个很有情怀年轻人，他有当代年轻人的阳光和骨气，在当时同样拿到很多顶级外企的offer而华为正在受到美国制裁的情况下，毅然选择加入这家中国企业</li>
+</ul>
+<p><strong>彭志辉研究生期间的老师、师母何晓玲评</strong></p>
+<ul>
+<li>彭志辉是一名勤奋好学，积极向上的阳光男孩。“我认为他进入华为是水到渠成的事情，这是他努力的结果，我们并没有觉得多么惊讶。”</li>
+</ul>
+<h1 id="他的话当年封号鸽王不管往哪个方向走都是高产">他的话(当年封号鸽王，不管往哪个方向走，都是高产)</h1>
+<ul>
+<li>
+<p>接下来我会开启一段新的事业，去做更有挑战的事情，不是因为我们已经有把握把它做好，而是因为，这件事是我一直以来的热爱和梦想。君子战虽有陈，而勇为本焉，年轻热血不知天高地厚也就是我最后的倔强吧</p>
+</li>
+<li>
+<p>曾经的菜鸟像鸵鸟一样把头扎进沙漠 然后发现在沙子下面的是星辰大海</p>
+</li>
+<li>
+<p>知识的积累并不是一蹴而就的，要始终保持菜鸟的心态，持续学习成长，始终去做对自我提升最有帮助的事情</p>
+</li>
+</ul>
+<h1 id="越热爱越幸运-十年饮冰难凉热血让我们一起共勉">越热爱，越幸运。十年饮冰，难凉热血，让我们一起共勉</h1>
+<p>最后，希望越来越多的人可以了解到稚晖君，下面为我个人制作的人物介绍PPT，用于素材分享，有需要的同志可以自取</p>
+<h1 id="ppt">PPT</h1>
+<p><a href="https://www.123pan.com/s/7GHSVv-SrAod.html">下载</a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[新年快乐！]]></title>
+        <id>https://cjhong.top/newyear/</id>
+        <link href="https://cjhong.top/newyear/">
+        </link>
+        <updated>2022-01-22T14:45:34.000Z</updated>
+        <content type="html"><![CDATA[<p>随着新年钟声响起，</p>
+<p>我们都又长了一岁。</p>
+<p>对于过去的一年，</p>
+<p>还有我们在世上生活的这些年，</p>
+<p>总要有句结束语：</p>
+<p>虽然人生在世会有种种不如意，</p>
+<p>但你仍可以在幸福与不幸中作选择。</p>
+<p>新年是检讨和许愿的节日，</p>
+<p>让营营役役了三百多天的自己，重整生活，</p>
+<p>好好执拾一下活得有点零乱的生活。</p>
+<p>时间有时也是空间。</p>
+<p>当我们从旧的一年跨入新的一年，</p>
+<p>就像从一个空间走进另一个空间。</p>
+<p>这个崭新的空间又大又空，</p>
+<p>充满不曾使用过的时间。</p>
+]]></content>
+    </entry>
+</feed>

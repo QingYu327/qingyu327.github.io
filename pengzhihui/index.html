@@ -1,0 +1,2919 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="keywords" content="踏雪寻梅cjhong">
+<meta name="description" content="唯有爱与科技不可被辜负
+">
+<meta name="theme-color" content="#000">
+<title>稚晖作品 | 踏雪寻梅</title>
+<link rel="shortcut icon" href="/favicon.ico?v=1734791787309">
+<link rel="stylesheet" href="/media/css/pisces.css">
+<link rel="stylesheet" href="/media/fonts/font-awesome.css">
+<link
+  href="//fonts.loli.net/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Rosario:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext"
+  rel="stylesheet" type="text/css">
+
+<link href="/media/hljs/styles/a11y-dark.css"
+  rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/themes/" rel="stylesheet" />
+
+<link rel="stylesheet" href="/styles/main.css">
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<script src="/media/js/jquery.js"></script>
+<script src="/media/hljs/highlight.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.ui.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
+  integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js"
+  integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js"
+  integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
+  onload="renderMathInElement(document.body);"></script>
+
+
+
+
+<script>
+  var _hmt = _hmt || [];
+  (function () {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?1139566d9398a9e727716ada29e8540b";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
+
+
+
+  <meta name="description" content="稚晖作品" />
+  <meta name="keywords" content="稚晖君专栏" />
+  <!--网站加载进度条开始-->
+<script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+<link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
+<style>
+    .pace .pace-progress {
+    	background: #7a7aec; /*进度条颜色*/
+    	height: 5px; /*进度条高度*/
+    }
+    .pace .pace-progress-inner {
+     	box-shadow: 0 0 10px #3f3f3f, 0 0 5px #3f3f3f; /*阴影颜色*/
+    }
+    .pace .pace-activity {
+    	border-top-color: #00ffdd;	/*上边框颜色*/
+    	border-left-color: #00ffdd;	/*左边框颜色*/
+    }
+</style>
+<!--网站加载进度条结束-->
+
+<!--网站加载动画开始-->
+<style>
+#loading-box .loading-left-bg,
+#loading-box .loading-right-bg {
+  position: fixed;
+  z-index: 10000;
+  width: 50%;
+  height: 100%;
+  background-color: #2a5161;
+  transition: all 0.5s;
+}
+
+#loading-box .loading-right-bg {
+  right: 0;
+}
+
+#loading-box>.spinner-box {
+  position: fixed;
+  z-index: 10001;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+#loading-box .spinner-box .configure-border-1 {
+  position: absolute;
+  padding: 3px;
+  width: 115px;
+  height: 115px;
+  background: #ffab91;
+  animation: configure-clockwise 3s ease-in-out 0s infinite alternate;
+}
+
+#loading-box .spinner-box .configure-border-2 {
+  left: -115px;
+  padding: 3px;
+  width: 115px;
+  height: 115px;
+  background: rgb(63, 249, 220);
+  transform: rotate(45deg);
+  animation: configure-xclockwise 3s ease-in-out 0s infinite alternate;
+}
+
+#loading-box .spinner-box .loading-word {
+  position: absolute;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+#loading-box .spinner-box .configure-core {
+  width: 100%;
+  height: 100%;
+  background-color: #37474f;
+}
+
+div.loaded div.loading-left-bg {
+  transform: translate(-100%, 0);
+}
+
+div.loaded div.loading-right-bg {
+  transform: translate(100%, 0);
+}
+
+div.loaded div.spinner-box {
+  display: none !important;
+}
+
+@keyframes configure-clockwise {
+  0% {
+    transform: rotate(0);
+  }
+
+  25% {
+    transform: rotate(90deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  75% {
+    transform: rotate(270deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes configure-xclockwise {
+  0% {
+    transform: rotate(45deg);
+  }
+
+  25% {
+    transform: rotate(-45deg);
+  }
+
+  50% {
+    transform: rotate(-135deg);
+  }
+
+  75% {
+    transform: rotate(-225deg);
+  }
+
+  100% {
+    transform: rotate(-315deg);
+  }
+}
+</style>
+
+<div id="loading-box">
+    <div class="loading-left-bg"></div>
+    <div class="loading-right-bg"></div>
+    <div class="spinner-box">
+      <div class="configure-border-1">
+        <div class="configure-core"></div>
+      </div>
+      <div class="configure-border-2">
+        <div class="configure-core"></div>
+      </div>
+      <div class="loading-word">稍等片刻...</div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+      document.body.style.overflow = 'auto';
+      document.getElementById('loading-box').classList.add("loaded")
+    })
+</script>
+
+<!--网站加载动画结束-->
+
+
+</head>
+
+<body>
+  <div class="head-top-line"></div>
+  <div class="header-box">
+    
+<div class="pisces">
+  <header class="header  ">
+    <div class="blog-header box-shadow-wrapper bg-color " id="header">
+      <div class="nav-toggle" id="nav_toggle">
+        <div class="toggle-box">
+          <div class="line line-top"></div>
+          <div class="line line-center"></div>
+          <div class="line line-bottom"></div>
+        </div>
+      </div>
+      <div class="site-meta">       
+        <div class="site-title">
+          
+            <a href="/" class="brand">
+              <span>踏雪寻梅</span>
+            </a>  
+          
+        </div>
+        
+          <p class="subtitle">唯有爱与科技不可被辜负</p>
+        
+      </div>
+      <nav class="site-nav" id="site_nav">
+        <ul id="nav_ul">
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/" target="_self">
+                  <i class="fa fa-globe"></i> 网站首页
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/archives" target="_blank">
+                  <i class="fa fa-globe"></i> 文章目录
+                </a>
+              
+            </li>
+          
+            
+            
+              
+                <li class="nav-item ">
+                  <a href="/friends" target="_blank">
+                    
+                      <i class="fa fa-address-book"></i>友情链接
+                    
+                  </a>
+                </li>
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="https://page.cjhong.top/" target="_blank">
+                  <i class="fa fa-globe"></i> 云-雾
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/minecraft" target="_blank">
+                  <i class="fa fa-globe"></i> Minecraft
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="https://cjhong.top/resource" target="_blank">
+                  <i class="fa fa-globe"></i> 资源下载
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/about" target="_blank">
+                  <i class="fa fa-globe"></i> 关于我
+                </a>
+              
+            </li>
+          
+          
+            
+          
+          
+            <li id="fa_search" class="nav-item">
+              <a href="javascript:void(0);">
+                <i class="fa fa-search"></i> <span class="language" data-lan="search">搜索</span>
+              </a>
+            </li>
+          
+        </ul>
+      </nav>
+    </div>
+  </header>
+</div>
+
+<script type="text/javascript"> 
+ 
+  let showNav = true;
+
+  let navToggle = document.querySelector('#nav_toggle'),
+  siteNav = document.querySelector('#site_nav');
+  
+  function navClick() {
+    let sideBar = document.querySelector('.sidebar');
+    let navUl = document.querySelector('#nav_ul');
+    navToggle.classList.toggle('nav-toggle-active');
+    siteNav.classList.toggle('nav-menu-active');
+    if (siteNav.classList.contains('nav-menu-active')) {
+      siteNav.style = "height: " + (navUl.children.length * 42) +"px !important";
+    } else {
+      siteNav.style = "";
+    }
+  }
+
+  navToggle.addEventListener('click',navClick);  
+</script>
+  </div>
+  <div class="main-continer">
+    
+    <div
+      class="section-layout pisces ">
+      <div class="section-layout-wrapper">
+        
+
+<div class="sidebar">
+  
+    <div class="sidebar-box box-shadow-wrapper bg-color right-motion" id="sidebar">
+      
+        <div class="post-list-sidebar">
+          <div class="sidebar-title">
+            <span id="tocSideBar" class="sidebar-title-item sidebar-title-active language" data-lan="index">文章目录</span>
+            <span id="metaSideBar" class="sidebar-title-item language" data-lan="preview">站点概览</span>
+          </div>
+        </div>
+      
+      <div class="sidebar-body pisces" id="sidebar_body">
+        
+          
+            <div class="post-side-meta" id="post_side_meta">
+              
+<div class="sidebar-wrapper box-shadow-wrapper bg-color">
+  <div class="sidebar-item">
+    <img class="site-author-image right-motion" src="/images/avatar.png"/>
+    <p class="site-author-name">江鸟</p>
+    
+    <div class="site-description right-motion">
+      
+        <p id="binft">“过于先进的科技对普通人来说像魔法一样，我觉得很酷”</p>
+      
+    </div>
+    
+  </div>
+  <div class="sidebar-item side-item-stat right-motion">
+    <div class="sidebar-item-box">
+      <a href="/archives/">
+        
+        <span class="site-item-stat-count">11</span>
+        <span class="site-item-stat-name language" data-lan="article">文章</span>
+      </a>
+    </div>
+    <div class="sidebar-item-box">
+      <a href="/tags/">
+        <span class="site-item-stat-count">8</span>
+        <span class="site-item-stat-name language" data-lan="tag">标签</span>
+      </a>
+    </div>
+  </div>
+  
+    
+      <div class="sidebar-item">
+        <span class="site-item-rss">
+            <i class="fa fa-rss"></i>
+            <a href="https://cjhong.top/atom.xml" target="_blank">RSS</a>
+        </span>
+      </div>
+    
+  
+  
+    <div class="sidebar-item sidebar-item-social">
+      <div class="social-item">
+        
+          
+            <a href="https://www.zhihu.com/people/kjphantom">
+              <i class="fa fa-twitter" title="知乎"></i>
+            </a>
+          
+            <a href="https://github.com/QingYu327">
+              <i class="fa fa-github" title="GitHub"></i>
+            </a>
+          
+            <a href="https://space.bilibili.com/1598857038?spm_id_from=333.1007.0.0">
+              <i class="fa fa-youtube-play" title="bilibili"></i>
+            </a>
+          
+        
+        
+      </div>
+    </div>
+  
+
+
+
+  <div style="width: 100%; position: relative;">
+    <canvas id="canvasDiyBlock" style="width:100%;">当前浏览器不支持canvas，请更换浏览器后再试</canvas>
+    <script src="/media/js/magic/clock.js"></script>
+  </div>
+
+</div>
+            </div>
+            <div class="post-toc sidebar-body-active" id="post_toc" style="opacity: 1;">
+              <div class="toc-box right-motion">
+  <div class="toc-wrapper auto-number auto"
+    id="toc_wrapper">
+    <ul class="markdownIt-TOC">
+<li><a href="#%E8%87%AA%E5%88%B6%E6%8A%80%E6%9C%AF%E5%AE%85up%E8%80%97%E6%97%B6%E4%B8%89%E4%B8%AA%E6%9C%88%E8%87%AA%E5%88%B6b%E7%AB%99%E6%9C%80%E5%BC%BA%E5%B0%8F%E7%94%B5%E8%A7%86">【自制】技术宅UP耗时三个月，自制B站最强小电视！</a></li>
+<li><a href="#%E8%87%AA%E5%88%B6%E5%A6%82%E4%BD%95%E6%8A%8A%E9%97%A8%E7%A6%81%E5%8D%A1%E5%81%9A%E6%88%90%E4%BD%A0%E7%94%A8%E4%B8%8D%E8%B5%B7%E7%9A%84%E6%A0%B7%E5%AD%90">【自制】如何把门禁卡做成你用不起的样子？</a></li>
+<li><a href="#%E8%87%AA%E5%88%B6%E5%90%83%E5%AE%8C%E7%9A%84%E8%9E%83%E8%9F%B9%E4%B8%8D%E8%A6%81%E6%89%94%E8%A3%B9%E4%B8%8A%E9%BB%91%E7%A7%91%E6%8A%80%E5%8F%AF%E4%BB%A5%E5%81%9A%E4%B8%80%E5%8F%B0%E7%81%AB%E6%98%9F%E8%BD%A6~">【自制】吃完的螃蟹不要扔，裹上黑科技，可以做一台火星车~</a></li>
+<li><a href="#%E8%87%AA%E5%88%B6%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%9A%84%E5%BF%83%E8%84%8F-%E8%B6%85%E8%BF%B7%E4%BD%A0foc%E7%9F%A2%E9%87%8F%E6%8E%A7%E5%88%B6%E9%A9%B1%E5%8A%A8%E5%99%A8">【自制】机器人的心脏--超迷你FOC矢量控制驱动器</a></li>
+<li><a href="#%E8%87%AA%E5%88%B6%E4%BD%A0%E7%9A%84%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%98%BE%E7%A4%BA%E5%99%A8%E5%8F%AF%E8%83%BD%E6%98%AF%E4%B8%AA%E5%85%85%E7%94%B5%E5%AE%9D">【自制】你的下一个显示器，可能是个充电宝？</a></li>
+<li><a href="#%E8%87%AA%E5%88%B6%E5%A6%82%E4%BD%95%E5%88%B6%E4%BD%9C%E4%B8%80%E4%B8%AA%E8%B5%9B%E5%8D%9A%E6%9C%8B%E5%85%8B%E9%A3%8E%E6%A0%BC%E7%9A%84-%E7%99%BE%E5%A4%A7up%E5%A5%96%E6%9D%AF">【自制】如何制作一个赛博朋克风格的 百大UP奖杯</a></li>
+<li><a href="#%E8%87%AA%E5%88%B6%E6%88%91%E6%8A%8A%E8%87%AA%E8%A1%8C%E8%BD%A6%E5%81%9A%E6%88%90%E4%BA%86-%E8%87%AA-%E5%8A%A8-%E9%A9%BE-%E9%A9%B6">自制】我把自行车做成了 自 动 驾 驶 ！！</a></li>
+<li><a href="#%E8%87%AA%E5%88%B6%E6%88%91%E9%80%A0%E4%BA%86%E4%B8%80%E5%8F%B0-%E9%92%A2-%E9%93%81-%E4%BE%A0-%E7%9A%84-%E6%9C%BA-%E6%A2%B0-%E8%87%82">【自制】我造了一台 钢 铁 侠 的 机 械 臂 ！</a></li>
+<li><a href="#%E7%A8%9A%E6%99%96%E5%90%9B%E8%BF%87%E4%BA%8E%E5%85%88%E8%BF%9B%E7%9A%84%E7%A7%91%E6%8A%80%E5%AF%B9%E6%99%AE%E9%80%9A%E4%BA%BA%E6%9D%A5%E8%AF%B4%E5%83%8F%E9%AD%94%E6%B3%95%E4%B8%80%E6%A0%B7%E6%88%91%E8%A7%89%E5%BE%97%E5%BE%88%E9%85%B7%E9%87%87%E8%AE%BF">稚晖君：“过于先进的科技对普通人来说像魔法一样，我觉得很酷”（采访）</a></li>
+<li><a href="#%E8%87%AA%E5%88%B6%E6%88%91%E5%81%9A%E4%BA%86%E4%B8%AA%E8%83%BD%E5%8A%A8%E7%9A%84-%E7%94%B5-%E8%84%91-%E9%85%8D-%E4%BB%B6">【自制】我做了个能动的 电 脑 配 件！</a></li>
+<li><a href="#%E8%87%AA%E5%88%B6%E6%88%91%E5%81%9A%E4%BA%86%E4%B8%80%E6%8A%8A-%E6%A8%A1-%E5%9D%97-%E5%8C%96-%E6%9C%BA-%E6%A2%B0-%E9%94%AE-%E7%9B%98-%E8%BD%AF%E6%A0%B8">【自制】我做了一把 模 块 化 机 械 键 盘 !【软核】</a></li>
+</ul>
+
+  </div>
+</div>
+
+<script>
+
+  let lastTop = 0, lList = [], hList = [], postBody, lastIndex = -1;
+  let active = 'active-show', activeClass = 'active-current';
+  let tocWrapper = document.querySelector('#toc_wrapper');
+  let tocContent = tocWrapper.children[0];
+  let autoNumber = tocWrapper && tocWrapper.classList.contains('auto-number');
+
+  function addTocNumber(elem, deep) {
+    if (!elem) {
+      return;
+    }
+    let prop = elem.__proto__;
+
+    if (prop === HTMLUListElement.prototype) {
+      for (let i = 0; i < elem.children.length; i++) {
+        addTocNumber(elem.children[i], deep + (i + 1) + '.');
+      }
+    } else if (prop === HTMLLIElement.prototype) {
+      // 保存li元素
+      if (elem.children[0] && elem.children[0].__proto__ === HTMLAnchorElement.prototype) {
+        lList.push(elem);
+      }
+      for (let i = 0; i < elem.children.length; i++) {
+        let cur = elem.children[i];
+        if (cur.__proto__ === HTMLAnchorElement.prototype) {
+          if (autoNumber) {
+            cur.text = deep + ' ' + cur.text;
+          }
+        } else if (cur.__proto__ === HTMLUListElement.prototype) {
+          addTocNumber(cur, deep);
+        }
+      }
+    }
+  }
+
+  function removeParentActiveClass() {
+    let parents = tocContent.querySelectorAll('.' + active)
+    parents.forEach(function (elem) {
+      elem.classList.remove(active);
+    });
+  }
+
+  function addActiveClass(index) {
+    if (index >= 0 && index < hList.length) {
+      lList[index].classList.add(activeClass);
+    }
+  }
+
+  function removeActiveClass(index) {
+    if (index >= 0 && index < hList.length) {
+      lList[index].classList.remove(activeClass);
+    }
+  }
+
+  function addActiveLiElemment(elem, parent) {
+    if (!elem || elem === parent) {
+      return;
+    } else {
+      if (elem.__proto__ === HTMLLIElement.prototype) {
+        elem.classList.add(active);
+      }
+      addActiveLiElemment(elem.parentElement, parent);
+    }
+  }
+
+  function showToc() {
+    if (tocWrapper) {
+      postBody = document.querySelector('#post_body');
+      for (let i = 0; i < postBody.children.length; i++) {
+        if (postBody.children[i].__proto__ === HTMLHeadingElement.prototype) {
+          hList.push(postBody.children[i]);
+        }
+      }
+      if (tocWrapper.classList.contains('compress')) {
+        tocContent.classList.add('closed');
+      } else if (tocWrapper.classList.contains('no_compress')) {
+        tocContent.classList.add('expanded');
+      } else {
+        if (hList.length > 10) {
+          active = 'active-hidden'
+          tocContent.classList.add('closed');
+        } else {
+          tocContent.classList.add('expanded');
+        }
+      }
+    }
+  }
+
+  (function () {
+    // 处理不是从#一级标题开始目录
+    if (tocContent.children.length === 1 && tocContent.children[0].__proto__ === HTMLLIElement.prototype) {
+      let con = tocContent.children[0].children[0];
+      tocContent.innerHTML = con.innerHTML;
+    }
+    let markdownItTOC = document.querySelector('.markdownIt-TOC');
+    let innerHeight = window.innerHeight;
+    markdownItTOC.style = `max-height: ${innerHeight - 80 > 0 ? innerHeight - 80 : innerHeight}px`
+    addTocNumber(tocContent, '');
+  })();
+
+  document.addEventListener('scroll', function (e) {
+    if (lList.length <= 0) {
+      return;
+    }
+    let scrollTop = document.scrollingElement.scrollTop + 10;
+    let dir;
+
+    if (lastTop - scrollTop > 0) {
+      dir = 'up';
+    } else {
+      dir = 'down';
+    }
+
+    lastTop = scrollTop;
+    if (scrollTop <= 0) {
+      if (lastIndex >= 0 && lastIndex < hList.length) {
+        lList[lastIndex].classList.remove(activeClass);
+      }
+      return;
+    }
+
+    let current = 0, hasFind = false;
+    for (let i = 0; i < hList.length; i++) {
+      if (hList[i].offsetTop > scrollTop) {
+        current = i;
+        hasFind = true;
+        break;
+      }
+    }
+    if (!hasFind && scrollTop > lList[lList.length - 1].offsetTop) {
+      current = hList.length - 1;
+    } else {
+      current--;
+    }
+    if (dir === 'down') {
+      if (current > lastIndex) {
+        addActiveClass(current);
+        removeActiveClass(lastIndex)
+        lastIndex = current;
+        removeParentActiveClass();
+        lList[current] && addActiveLiElemment(lList[current].parentElement, tocContent);
+      }
+    } else {
+      if (current < lastIndex) {
+        addActiveClass(current);
+        removeActiveClass(lastIndex);
+        lastIndex = current;
+        removeParentActiveClass();
+        lList[current] && addActiveLiElemment(lList[current].parentElement, tocContent);
+      }
+    }
+  });
+
+
+  window.addEventListener('load', function () {
+    showToc();
+    document.querySelector('#sidebar').style = 'display: block;';
+    tocWrapper.classList.add('toc-active');
+    setTimeout(function () {
+      if ("createEvent" in document) {
+        let evt = document.createEvent("HTMLEvents");
+        evt.initEvent("scroll", false, true);
+        document.dispatchEvent(evt);
+      }
+      else {
+        document.fireEvent("scroll");
+      }
+    }, 500)
+  })
+
+</script>
+            </div>
+          
+        
+      </div>
+    </div>
+  
+</div>
+<script>
+  const SIDEBAR_TITLE_ACTIVE = 'sidebar-title-active';
+  const SIDEBAR_BODY_ACTIVE = 'sidebar-body-active';
+  const SLIDE_UP_IN = 'slide-up-in';
+
+  let sidebar = document.querySelector('#sidebar'),
+  tocSideBar = document.querySelector('#tocSideBar'),
+  metaSideBar = document.querySelector('#metaSideBar'),
+  postToc = document.querySelector('#post_toc'),
+  postSiteMeta = document.querySelector('#post_side_meta'),
+  sidebarTitle = document.querySelector('.sidebar-title'),
+  sidebarBody = document.querySelector('#sidebar_body');
+
+  tocSideBar && tocSideBar.addEventListener('click', (e) => {
+    toggleSidebar(e);
+  });
+
+  metaSideBar && metaSideBar.addEventListener('click', (e) => {
+    toggleSidebar(e);
+  });
+
+  function toggleSidebar(e) {
+    let currentTitle = document.querySelector("."+SIDEBAR_TITLE_ACTIVE);
+    if (currentTitle == e.srcElement) {
+      return ;
+    }
+    let current, showElement, hideElement;
+    if (e.srcElement == metaSideBar) {
+      showElement = postSiteMeta;
+      hideElement = postToc;
+    } else if (e.srcElement == tocSideBar){
+      showElement = postToc;
+      hideElement = postSiteMeta;
+    }
+    currentTitle.classList.remove(SIDEBAR_TITLE_ACTIVE);
+    e.srcElement.classList.add(SIDEBAR_TITLE_ACTIVE);
+
+    jQuery.Velocity(hideElement, 'stop');
+    jQuery.Velocity(hideElement, 'transition.slideUpOut', {
+      display: 'none',
+      duration: 200,
+      complete: function () {
+        jQuery.Velocity(showElement, 'transition.slideDownIn', {
+          duration: 200
+        });
+      }
+    })
+    hideElement.classList.remove(SIDEBAR_BODY_ACTIVE);
+    showElement.classList.add(SIDEBAR_BODY_ACTIVE);
+  }
+
+  postToc && postToc.addEventListener('transitionend', function() {
+    this.classList.remove(SLIDE_UP_IN);
+  });
+
+  if (sidebarBody) {
+    if (sidebarBody.classList.contains('pisces') || sidebarBody.classList.contains('gemini')) {
+      let hasFix = false;
+      let scrollEl = document.querySelector('.main-continer');
+      let limitTop = document.querySelector('#nav_ul').children.length * 42 + 162;
+      window.addEventListener('scroll', function(e) {
+        if (document.scrollingElement.scrollTop >= limitTop) {
+          if (!hasFix) {
+            sidebar.classList.add('sidebar-fixed');
+            hasFix = true;
+          }
+        } else {
+          if (hasFix) {
+            sidebar.classList.remove('sidebar-fixed');
+            hasFix = false;
+          }
+        }
+      });
+    }
+  }
+  
+</script>
+        <div class="section-box box-shadow-wrapper">
+          <div class="section bg-color post post-page">
+            <section class="post-header">
+  <h1 class="post-title">
+    <a class="post-title-link" href="https://cjhong.top/pengzhihui/"> 稚晖作品 </a>
+  </h1>
+  <div class="post-meta">
+    
+    <span class="meta-item pc-show">
+      <i class="fa fa-calendar-o"></i>
+      <span class="language" data-lan="publish">发布于</span>
+      <span class="publish-time" data-t="2022-04-02 00:33:31">2022-04-02</span>
+      <span class="post-meta-divider pc-show">|</span>
+    </span>
+    
+    <span class="meta-item">
+      <i class="fa fa-folder-o"></i>
+      <span class="pc-show language" data-lan="category-in">标签:</span>
+       
+      <a href="https://cjhong.top/mWm54-k5e/">
+        <span>稚晖君专栏</span>
+      </a>
+       
+    </span>
+    <span class="post-meta-divider">|</span>
+    
+    <span class="meta-item">
+      <i class="fa fa-clock-o"></i>
+      <span
+        >1<span class="language" data-lan="minute"
+          >分钟</span
+        ></span
+      >
+    </span>
+    <span class="meta-item">
+      <span class="post-meta-divider">|</span>
+      <i class="fa fa-file-word-o"></i>
+      <span
+        >201<span class="pc-show language" data-lan="words"
+          >字数</span
+        ></span
+      >
+    </span>
+      
+    <span
+      id="/pengzhihui/"
+      data-flag-title="稚晖作品"
+      class="meta-item pc-show leancloud_visitors"
+    >
+      <span class="post-meta-divider">|</span>
+      <i class="fa fa-eye"></i>
+      <span
+        ><span class="language" data-lan="view">浏览量:</span>:<span
+          class="leancloud-visitors-count"
+        ></span
+      ></span>
+    </span>
+    
+  </div>
+</section>
+
+            <div class="post-body next-md-body" id="post_body">
+              <h1 id="自制技术宅up耗时三个月自制b站最强小电视">【自制】技术宅UP耗时三个月，自制B站最强小电视！</h1>
+<div style="position: relative; padding: 30% 45%;">
+    <iframe style="
+        position: absolute; 
+        width: 100%; 
+        height: 100%; 
+        left: 0; top: 0;" 
+        src="//player.bilibili.com/player.html?aid=96244032&bvid=BV1jE41137eu&cid=164144278&page=1&high_quality=1" 
+        scrolling="no" 
+        border="0" 
+        frameborder="no" 
+        framespacing="0" 
+        allowfullscreen="true">
+    </iframe>
+</div>
+<h1 id="自制如何把门禁卡做成你用不起的样子">【自制】如何把门禁卡做成你用不起的样子？</h1>
+<div style="position: relative; padding: 30% 45%;">
+    <iframe style="
+        position: absolute; 
+        width: 100%; 
+        height: 100%; 
+        left: 0; top: 0;" 
+        src="//player.bilibili.com/player.html?aid=286053672&bvid=BV1Cf4y1y7KT&cid=204078186&page=1&high_quality=1" 
+        scrolling="no" 
+        border="0" 
+        frameborder="no" 
+        framespacing="0" 
+        allowfullscreen="true">
+    </iframe>
+</div>
+<h1 id="自制吃完的螃蟹不要扔裹上黑科技可以做一台火星车~">【自制】吃完的螃蟹不要扔，裹上黑科技，可以做一台火星车~</h1>
+<div style="position: relative; padding: 30% 45%;">
+    <iframe style="
+        position: absolute; 
+        width: 100%; 
+        height: 100%; 
+        left: 0; top: 0;" 
+        src="//player.bilibili.com/player.html?aid=328889258&bvid=BV1ZA411e7Ff&cid=216647261&page=1&high_quality=1" 
+        scrolling="no" 
+        border="0" 
+        frameborder="no" 
+        framespacing="0" 
+        allowfullscreen="true">
+    </iframe>
+</div>
+<h1 id="自制机器人的心脏-超迷你foc矢量控制驱动器">【自制】机器人的心脏--超迷你FOC矢量控制驱动器</h1>
+<div style="position: relative; padding: 30% 45%;">
+    <iframe style="
+        position: absolute; 
+        width: 100%; 
+        height: 100%; 
+        left: 0; top: 0;" 
+        src="//player.bilibili.com/player.html?aid=414478323&bvid=BV11V41127pq&cid=232289126&page=1&high_quality=1" 
+        scrolling="no" 
+        border="0" 
+        frameborder="no" 
+        framespacing="0" 
+        allowfullscreen="true">
+    </iframe>
+</div>
+<h1 id="自制你的下一个显示器可能是个充电宝">【自制】你的下一个显示器，可能是个充电宝？</h1>
+<div style="position: relative; padding: 30% 45%;">
+    <iframe style="
+        position: absolute; 
+        width: 100%; 
+        height: 100%; 
+        left: 0; top: 0;" 
+        src="//player.bilibili.com/player.html?aid=712897882&bvid=BV17D4y1X7AT&cid=260839008&page=1&high_quality=1" 
+        scrolling="no" 
+        border="0" 
+        frameborder="no" 
+        framespacing="0" 
+        allowfullscreen="true">
+    </iframe>
+</div>
+<h1 id="自制如何制作一个赛博朋克风格的-百大up奖杯">【自制】如何制作一个赛博朋克风格的 百大UP奖杯</h1>
+<div style="position: relative; padding: 30% 45%;">
+    <iframe style="
+        position: absolute; 
+        width: 100%; 
+        height: 100%; 
+        left: 0; top: 0;" 
+        src="//player.bilibili.com/player.html?aid=331284654&bvid=BV1VA411p7MD&cid=286337150&page=1&high_quality=1" 
+        scrolling="no" 
+        border="0" 
+        frameborder="no" 
+        framespacing="0" 
+        allowfullscreen="true">
+    </iframe>
+</div>
+<h1 id="自制我把自行车做成了-自-动-驾-驶">自制】我把自行车做成了 自 动 驾 驶 ！！</h1>
+<div style="position: relative; padding: 30% 45%;">
+    <iframe style="
+        position: absolute; 
+        width: 100%; 
+        height: 100%; 
+        left: 0; top: 0;" 
+        src="//player.bilibili.com/player.html?aid=418448598&bvid=BV1fV411x72a&cid=350821534&page=1&high_quality=1" 
+        scrolling="no" 
+        border="0" 
+        frameborder="no" 
+        framespacing="0" 
+        allowfullscreen="true">
+    </iframe>
+</div>
+<h1 id="自制我造了一台-钢-铁-侠-的-机-械-臂">【自制】我造了一台 钢 铁 侠 的 机 械 臂 ！</h1>
+<div style="position: relative; padding: 30% 45%;">
+    <iframe style="
+        position: absolute; 
+        width: 100%; 
+        height: 100%; 
+        left: 0; top: 0;" 
+        src="//player.bilibili.com/player.html?aid=420981979&bvid=BV12341117rG&cid=421416333&page=1&high_quality=1" 
+        scrolling="no" 
+        border="0" 
+        frameborder="no" 
+        framespacing="0" 
+        allowfullscreen="true">
+    </iframe>
+</div>
+<h1 id="稚晖君过于先进的科技对普通人来说像魔法一样我觉得很酷采访">稚晖君：“过于先进的科技对普通人来说像魔法一样，我觉得很酷”（采访）</h1>
+<div style="position: relative; padding: 30% 45%;">
+    <iframe style="
+        position: absolute; 
+        width: 100%; 
+        height: 100%; 
+        left: 0; top: 0;" 
+        src="//player.bilibili.com/player.html?aid=677612560&bvid=BV1zm4y197Py&cid=467867782&page=1&high_quality=1" 
+        scrolling="no" 
+        border="0" 
+        frameborder="no" 
+        framespacing="0" 
+        allowfullscreen="true">
+    </iframe>
+</div>
+<h1 id="自制我做了个能动的-电-脑-配-件">【自制】我做了个能动的 电 脑 配 件！</h1>
+<div style="position: relative; padding: 30% 45%;">
+    <iframe style="
+        position: absolute; 
+        width: 100%; 
+        height: 100%; 
+        left: 0; top: 0;" 
+        src="//player.bilibili.com/player.html?aid=212189891&bvid=BV1ka411b76m&cid=548248234&page=1&high_quality=1" 
+        scrolling="no" 
+        border="0" 
+        frameborder="no" 
+        framespacing="0" 
+        allowfullscreen="true">
+    </iframe>
+</div>
+<h1 id="自制我做了一把-模-块-化-机-械-键-盘-软核">【自制】我做了一把 模 块 化 机 械 键 盘 !【软核】</h1>
+<div style="position: relative; padding: 30% 45%;">
+    <iframe style="
+        position: absolute; 
+        width: 100%; 
+        height: 100%; 
+        left: 0; top: 0;" 
+        src="//player.bilibili.com/player.html?aid=856138376&bvid=BV19V4y1J7Hx&cid=782251995&page=1&high_quality=1" 
+        scrolling="no" 
+        border="0" 
+        frameborder="no" 
+        framespacing="0" 
+        allowfullscreen="true">
+    </iframe>
+</div>
+
+            </div>
+            <div>
+              <br/> 
+                <div style="text-align:center;color: #999;font-size:14px;">---------- 本文到此结束 <i class="fa fa-cloud"></i> 感谢您的阅读 ----------</div>
+              <br/>
+              </div>
+            
+              <div class="reward-btn">
+                <div class="reward-btn-text">赞赏</div>
+              </div>
+            
+            
+              <div class="post-footer">
+  <ul class="post-copyright">
+    <li class="post-copyright-author">
+      <strong class="language" data-lan="author">本文作者：</strong>
+      江鸟
+    </li>
+    <li class="post-copyright-link">
+      <strong class="language" data-lan="link">本文链接：</strong>
+      <a href="https://cjhong.top/pengzhihui/" title="稚晖作品">https://cjhong.top/pengzhihui/</a>
+    </li>
+    <li class="post-copyright-license">
+      <strong class="language" data-lan="copyright">版权声明： </strong>
+      本博客所有文章除特别声明外，均采用<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i> BY-NC-SA</a> 许可协议。转载请注明出处！
+    </li>
+  </ul>
+  <div class="tags">
+    
+      <a href="https://cjhong.top/mWm54-k5e/"># 稚晖君专栏</a>
+    
+  </div>
+<br/><!-- 引入依赖 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
+<!-- 只要一个div的class是social-share即可，内容会自动初始化 -->
+<div class="social-share" style="text-align:center;font-size:14px;" data-sites="facebook,twitter,linkedin,google,wechat,qq,qzone,weibo">分享到：</div>
+
+  <div class="nav">
+    <div class="nav-prev">
+      
+    </div>
+    <div class="nav-next">
+      
+    </div>
+  </div>
+</div>
+            
+            
+  <script src="https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js"></script>
+<div id="vcomments" style="padding: 10px 0px 0px 0px"></div>
+
+<style>
+  .v .veditor {
+    min-height: 10rem;
+    background-image: url('');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: rgba(255, 255, 255, 0);
+    resize: none;
+  }
+
+  .v .vwrap {
+    border: 1px solid #000 !important;
+  }
+
+  .v .vbtn {
+    padding: .4rem 1.2rem !important;
+    border-color: #fff !important;
+    background-color: #49b1f5 !important;
+    color: #fff !important;
+    font-size: .7rem !important;
+  }
+
+  .v .vcards .vcard .vh .vmeta .vat {
+    padding: 0 .8rem !important;
+    border: 1px solid #00c4b6 !important;
+    border-radius: 5px !important;
+    color: #00c4b6 !important;
+  }
+</style>
+<script>
+  new Valine({
+    el: '#vcomments',
+    appId: 'b3bmwzvDbEy3Gp1dCQlLHnYD-gzGzoHsz',
+    appKey: 'RbNsH69vnAeIeNSfr1wBGi8t',
+    avatar: 'retro',
+    placeholder: '说点什么？',
+    pageSize: '',
+    lang: 'zh-cn',
+    enableQQ: 'true' === 'false',
+    visitor: 'true' === 'true',
+    highlight: 'true' === 'true',
+    avatarForce: 'true' === 'false',
+    serverURLs: '',
+		recordIP: 'true' === 'true',
+  });
+</script>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-box">
+  <footer class="footer">
+    <center id="runTimeBox">
+      网站已安全运行:<span id="run_time"></span>
+    </center>
+    <span id="busuanzi_container_site_pv">总浏览数:<span id="busuanzi_value_site_pv"></span> 次</span>
+    <span class="post-meta-divider">|</span>
+    <span id="busuanzi_container_site_uv">总访客数:<span id="busuanzi_value_site_uv"></span> 人</span>
+
+    <script>
+      BirthDay = new Date('2021/11/27');
+      if (BirthDay.getTime()) {
+        function runTime() {
+          str = "";
+          today = new Date();
+          timeold = today.getTime() - BirthDay.getTime();
+          msPerDay = 24 * 60 * 60 * 1000;
+          e_daysold = timeold / msPerDay;
+          daysold = Math.floor(e_daysold);
+          str += daysold + "天";
+          return str;
+        }
+        setInterval(function () {
+          $("#run_time").html(runTime());
+        }, 1000);
+      } else {
+        document.querySelector('.footer').removeChild(document.querySelector('#runTimeBox'));
+      }
+    </script>
+    <div class="poweredby">
+      ©Copyright 2024  江鸟
+<br/> 
+<a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2024280843号-1</a>
+<br/> 
+<img class="logos" src="/image/ba.png" style="width:15px;"><a href="https://beian.mps.gov.cn/#/query/webSearch?code=44090402441226" rel="noreferrer" target="_blank">粤公网安备44090402441226</a>
+<br/>
+<a href="https://tianwen.netlify.app/" target="_blank">青雨镜像站</a>
+    </div>
+  </footer>
+  
+    
+        <div class="pisces back-to-top" id="back_to_top">
+          <i class="fa fa-arrow-up"></i>
+          
+            <span class="scrollpercent"> <span id="back_to_top_text">0</span>% </span>
+            
+        </div>
+        
+          
+            
+              <div class="bg-img">
+                <img src="\image\bg.jpg" />
+              </div>
+              
+                
+                  
+                        
+</div>
+<script>
+  let sideBarOpen = "sidebar-open";
+  let body = document.body;
+  let back2Top = document.querySelector("#back_to_top"),
+    back2TopText = document.querySelector("#back_to_top_text"),
+    drawerBox = document.querySelector("#drawer_box"),
+    rightSideBar = document.querySelector(".sidebar"),
+    viewport = document.querySelector("body");
+
+  function scrollAnimation(currentY, targetY) {
+    let needScrollTop = targetY - currentY;
+    let _currentY = currentY;
+    setTimeout(() => {
+      const dist = Math.ceil(needScrollTop / 10);
+      _currentY += dist;
+      window.scrollTo(_currentY, currentY);
+      if (needScrollTop > 10 || needScrollTop < -10) {
+        scrollAnimation(_currentY, targetY);
+      } else {
+        window.scrollTo(_currentY, targetY);
+      }
+    }, 1);
+  }
+
+  back2Top.addEventListener("click", function (e) {
+    scrollAnimation(document.scrollingElement.scrollTop, 0);
+    e.stopPropagation();
+    return false;
+  });
+
+  window.addEventListener("scroll", function (e) {
+    let percent =
+      (document.scrollingElement.scrollTop /
+        (document.scrollingElement.scrollHeight -
+          document.scrollingElement.clientHeight)) *
+      100;
+    if (percent > 1 && !back2Top.classList.contains("back-top-active")) {
+      back2Top.classList.add("back-top-active");
+    }
+    if (percent == 0) {
+      back2Top.classList.remove("back-top-active");
+    }
+    if (back2TopText) {
+      back2TopText.textContent = Math.floor(percent);
+    }
+  });
+
+  let hasCacu = false;
+  window.addEventListener("resize", function (e) {
+    calcuHeight();
+  });
+
+  function calcuHeight() {
+    // 动态调整站点概览高度
+    if (
+      (!hasCacu && back2Top.classList.contains("pisces")) ||
+      back2Top.classList.contains("gemini")
+    ) {
+      let sideBar = document.querySelector(".sidebar");
+      let navUl = document.querySelector("#site_nav");
+      sideBar.style =
+        "margin-top:" + (navUl.offsetHeight + navUl.offsetTop + 15) + "px;";
+      hasCacu = true;
+    }
+  }
+  calcuHeight();
+
+  let open = false,
+    MOTION_TIME = 300,
+    RIGHT_MOVE_DIS = "320px";
+
+  if (drawerBox) {
+    let rightMotions = document.querySelectorAll(".right-motion");
+    let right = drawerBox.classList.contains("right");
+
+    let transitionDir = right
+      ? "transition.slideRightIn"
+      : "transition.slideLeftIn";
+
+    let openProp, closeProp;
+    if (right) {
+      openProp = {
+        paddingRight: RIGHT_MOVE_DIS,
+      };
+      closeProp = {
+        paddingRight: "0px",
+      };
+    } else {
+      openProp = {
+        paddingLeft: RIGHT_MOVE_DIS,
+      };
+      closeProp = {
+        paddingLeft: "0px",
+      };
+    }
+
+    drawerBox.onclick = function () {
+      open = !open;
+      jQuery.Velocity(rightSideBar, "stop");
+      jQuery.Velocity(viewport, "stop");
+      jQuery.Velocity(rightMotions, "stop");
+      if (open) {
+        jQuery.Velocity(
+          rightSideBar,
+          {
+            width: RIGHT_MOVE_DIS,
+          },
+          {
+            duration: MOTION_TIME,
+            begin: function () {
+              jQuery.Velocity(rightMotions, transitionDir, {});
+            },
+          }
+        );
+        jQuery.Velocity(viewport, openProp, {
+          duration: MOTION_TIME,
+        });
+      } else {
+        jQuery.Velocity(
+          rightSideBar,
+          {
+            width: "0px",
+          },
+          {
+            duration: MOTION_TIME,
+            begin: function () {
+              jQuery.Velocity(rightMotions, {
+                opacity: 0,
+              });
+            },
+          }
+        );
+        jQuery.Velocity(viewport, closeProp, {
+          duration: MOTION_TIME,
+        });
+      }
+      for (let i = 0; i < drawerBox.children.length; i++) {
+        drawerBox.children[i].classList.toggle("muse-line");
+      }
+      drawerBox.classList.toggle(sideBarOpen);
+    };
+  }
+
+  // 链接跳转
+  let newWindow = "true";
+  if (newWindow === "true") {
+    let links = document.querySelectorAll(".post-body a");
+    links.forEach((item) => {
+      if (!item.classList.contains("btn")) {
+        item.setAttribute("target", "_blank");
+      }
+    });
+  }
+
+  let faSearch = document.querySelector("#fa_search");
+  faSearch &&
+    faSearch.addEventListener("click", function () {
+      document.querySelector("#search_mask").style = "";
+    });
+
+  // 代码高亮
+  hljs.initHighlightingOnLoad();
+
+  // 离开当前页title变化
+  var leaveTitle = "且将新火试新茶，诗酒趁年华";
+  var normal_title = document.title;
+  if (leaveTitle) {
+    document.addEventListener("visibilitychange", function () {
+      if (document.visibilityState == "hidden") {
+        normal_title = document.title;
+        document.title = leaveTitle;
+      } else {
+        document.title = normal_title;
+      }
+    });
+  }
+</script>
+
+<link rel="stylesheet" href="/media/css/jquery.fancybox.css" />
+<script src="/media/js/jquery.fancybox.js"></script>
+
+<script>
+  let images = document.querySelectorAll(".section img");
+  images.forEach((image) => {
+    var parent = image.parentElement;
+    var next = image.nextElementSibling;
+    parent.removeChild(image);
+    var aelem = document.createElement("a");
+    aelem.href = image.src;
+    aelem.dataset["fancybox"] = "images";
+    aelem.dataset["rel"] = "fancybox-button";
+    aelem.classList.add("fancybox");
+    aelem.appendChild(image);
+    parent.insertBefore(aelem, next);
+  });
+</script>
+    <div class="reward-mask" style="display: none;">
+  <div class="reward-relative">
+    <span class="close" aria-hidden="true">x</span>
+    <div class="reward-body">
+      <h2>感谢您的支持，我会继续努力的!</h2>
+      <div class="reward-img-box">
+        <div style="position: relative; width: 140px; height: 140px;">
+          
+          
+            <img id="zfb" class="reward-img" src="/image/aipay.jpg" alt="赞赏码">
+          
+          
+            <img id="wx" class="reward-img" src="/image/wechat.jpg" alt="赞赏码">
+          
+        </div>
+      </div>
+      <p class="reward-word">请我喝可乐</p>
+      <p class="reward-tip"> </p>
+    </div>
+    <div class="bottom">
+      
+      <div id="zfbBtn" class="pay-text">
+        支付宝
+      </div>
+      
+      
+      <div id="wxBtn" class="pay-text">
+        微信支付
+      </div>
+      
+    </div>
+  </div>
+</div>
+<style>
+  .reward-mask {
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #00000054;
+  }
+
+  .reward-relative {
+    position: relative;
+    width: 480px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: #fff;
+    top: 50%;
+    margin-top: -205px;
+  }
+
+  .reward-relative .close {
+    position: absolute;
+    right: 10px;
+    font-weight: normal;
+    font-size: 16px;
+    color: #929292;
+  }
+
+  .reward-body {
+    padding: 40px 20px 20px;
+  }
+
+  .bottom {
+    display: flex;
+  }
+
+  .reward-btn {
+    text-align: center;
+  }
+
+  .reward-btn-text {
+    display: inline-block;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    background-color: #ff9734;
+    color: #FFF;
+    margin-top: 20px;
+  }
+
+  .pay-text {
+    margin-top: 10px;
+    padding: 10px;
+    flex: 1;
+    transition: all .2s linear;
+  }
+
+  .pay-text:hover {
+    background-color: #a5a5a536;
+  }
+
+  .reward-body h2 {
+    padding-top: 10px;
+    text-align: center;
+    color: #a3a3a3;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0 0 20px;
+  }
+
+  .reward-body h2:after,
+  .reward-body h2:before {
+    font-family: Arial, Helvetica, sans-serif;
+    background: 0 0;
+    width: 0;
+    height: 0;
+    font-style: normal;
+    color: #eee;
+    font-size: 80px;
+    position: absolute;
+    top: 20px;
+  }
+
+  .reward-body h2:before {
+    content: '\201c';
+    left: 50px;
+  }
+
+  .reward-body h2:after {
+    content: '\201d';
+    right: 80px;
+  }
+
+  .reward-img-box {
+    display: inline-block;
+    padding: 10px;
+    border: 6px solid #ea5f00;
+    margin: 0 auto;
+    border-radius: 3px;
+    position: relative;
+  }
+
+  .reward-img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+  }
+
+  @media (max-width: 767px) {
+    .reward-relative {
+      height: 100%;
+      top: 0px;
+      margin-top: 0;
+      width: auto;
+    }
+
+    .reward-relative .bottom {
+      flex-direction: column;
+    }
+
+    .reward-relative .pay-text {
+      width: 80%;
+      margin: 5px auto;
+      border: 1px solid silver;
+      padding: 6px;
+      border-radius: 4px;
+    }
+
+    .reward-body h2:after {
+      right: 40px;
+    }
+
+    .reward-body h2:after,
+    .reward-body h2:before {
+      font-size: 60px;
+    }
+
+    .reward-body h2:before {
+      left: 20px;
+    }
+  }
+</style>
+<script>
+  !function () {
+    var mask = document.querySelector('.reward-mask');
+    let close = document.querySelector('.reward-relative .close');
+    let rewardBtn = document.querySelector('.reward-btn');
+
+    let zfb = document.querySelector('#zfb'),
+      wx = document.querySelector('#wx'),
+      zfbBtn = document.querySelector('#zfbBtn'),
+      wxBtn = document.querySelector('#wxBtn');
+
+    if (zfbBtn && wxBtn) {
+      zfbBtn.addEventListener('click', () => {
+        jQuery.Velocity(zfb, 'transition.slideLeftIn', {
+          duration: 400
+        });
+        jQuery.Velocity(wx, 'transition.slideRightOut', {
+          display: 'none',
+          duration: 400
+        });
+      });
+
+      wxBtn.addEventListener('click', () => {
+        jQuery.Velocity(wx, 'transition.slideRightIn', {
+          duration: 400
+        });
+        jQuery.Velocity(zfb, 'transition.slideLeftOut', {
+          display: 'none',
+          duration: 400
+        });
+      });
+    }
+
+    rewardBtn.addEventListener('click', (e) => {
+      jQuery.Velocity(mask, 'transition.slideDownIn', {
+        duration: 400
+      })
+    });
+
+    close.addEventListener('click', (e) => {
+      e.preventDefault();
+      jQuery.Velocity(mask, 'transition.slideUpOut', {
+        duration: 400
+      })
+    })
+  }()
+</script>
+
+  </div>
+<!--鼠标右键菜单开始-->
+<style>
+.usercm a {
+  text-decoration: none;
+}
+div.usercm{
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size:cover;
+  background-color:#fff;
+  font-size:13px!important;
+  width:130px;
+  -moz-box-shadow:1px 1px 3px rgba(0,0,0,.3);
+  box-shadow:0px 0px 15px #333;
+  position:absolute;
+  display:none;
+  z-index:10000;
+  opacity:0.9;
+  border-radius: 5px;
+}
+div.usercm ul{
+  list-style-type:none;
+  list-style-position:outside;
+  margin:0px;padding:0px;
+  display:block
+}
+div.usercm ul li{
+  margin:0px;padding:0px;line-height:35px;
+}
+div.usercm ul li a{
+  color:#666;padding:0 15px;display:block
+}
+div.usercm ul li a:hover{
+  color:#fff;background:#73c9e5;border-radius: 5px
+}
+div.usercm ul li a i{
+  margin-right:10px
+}
+.usercm a.disabled{
+  color:#c8c8c8!important;cursor:not-allowed
+}
+.usercm a.disabled:hover{
+  background-color:rgba(255,11,11,0)!important
+}
+div.usercm{
+  background:#fff !important;
+}
+</style>
+
+<script>
+//绑定页面相关事件
+(function(a) {
+  a.extend({
+    mouseMoveShow: function(b) {
+      var d = 0,
+              c = 0,
+              h = 0,
+              k = 0,
+              e = 0,
+              f = 0;
+      a(window).mousemove(function(g) {
+        d = a(window).width();
+        c = a(window).height();
+        h = g.clientX;
+        k = g.clientY;
+        e = g.pageX;
+        f = g.pageY;
+        h + a(b).width() >= d && (e = e - a(b).width() - 5);
+        k + a(b).height() >= c && (f = f - a(b).height() - 5);
+        a("html").on({
+          contextmenu: function(c) {
+            3 == c.which && a(b).css({
+              left: e,
+              top: f
+            }).show()
+          },
+          click: function() {
+            a(b).hide()
+          }
+        })
+      })
+    },
+    //禁用右键菜单
+    disabledContextMenu: function() {
+      window.oncontextmenu = function() {
+        return !1
+      }
+    }
+  })
+})(jQuery);
+
+function getSelect() {
+  "" == (window.getSelection ? window.getSelection() : document.selection.createRange().text) ? layer.msg("请选择需要复制的内容！") : document.execCommand("Copy")
+}
+function GoogleSearch() {
+  var a = window.getSelection ? window.getSelection() : document.selection.createRange().text;
+  "" == a ? layer.msg("请选择需要打开的网址！") : window.open("" + a)
+}
+function BingSearch() {
+  var a = window.getSelection ? window.getSelection() : document.selection.createRange().text;
+  "" == a ? layer.msg("请选择需要搜索的内容！") : window.open("https://www.bing.com/search?q=" + a)
+}
+function BaiduSearch() {
+  var a = window.getSelection ? window.getSelection() : document.selection.createRange().text;
+  "" == a ? layer.msg("请选择需要搜索的内容！") : window.open("https://www.baidu.com/s?wd=" + a)
+}
+function toRefresh(){
+  window.location.reload()
+}
+$(function() {
+  for (var a = navigator.userAgent, b = "Android;iPhone;SymbianOS;Windows Phone;iPad;iPod".split(";"), d = !0, c = 0; c < b.length; c++) if (0 < a.indexOf(b[c])) {
+    d = !1;
+    break
+  }
+  d && ($.mouseMoveShow(".usercm"), $.disabledContextMenu())
+});
+</script>
+
+<div class="usercm" style="display: none;">
+  <ul>
+    <li style="border-bottom:1px solid gray"><a href="/"><i class="fa fa-home"></i><span>首页</span></a></li>
+    <li><a href="javascript:void(0);" onclick="getSelect();"><i class="fa fa-file"></i><span>复制</span></a></li>
+    <li style="border-bottom:1px solid gray"><a href="javascript:void(0);" onclick="BingSearch();"><i class="fa fa-search"></i><span>Bing搜索</span></a></li>
+    <li><a href="javascript:void(0);" onclick="GoogleSearch();"><i class="fa fa-search"></i><span>网址打开</span></a></li>
+    <li><a href="javascript:history.go(1);"><i class="fa fa-arrow-right"></i><span>前进</span></a></li>
+    <li><a href="javascript:history.go(-1);"><i class="fa fa-arrow-left"></i><span>后退</span></a></li>
+    <li style="border-bottom:1px solid gray"><a href="javascript:void(0);" onclick="toRefresh()"><i class="fa fa-refresh"></i><span>刷新</span></a></li>
+    <li><a href="/archives" target="_blank"><i class="fa fa-external-link"></i><span>目录</span></a></li>
+    <li><a href="/about"><i class="fa fa-info-circle"></i><span>关于</span></a></li>
+  </ul>
+</div>
+<!--鼠标右键菜单结束-->
+
+</body>
+
+  <div class="search-mask" id="search_mask" style="display: none;">
+  <div class="search-box">
+    <div class="search-title">
+      <i class="fa fa-search"></i>
+      <div class="input-box">
+        <input id="search" type="text" class="language" data-lan="search" placeholder="搜索">
+      </div>
+      <i id="close" class="fa fa-times-circle"></i>
+    </div>
+    <div class="stat-box">
+      <span id="stat_count">0</span><span class="language" data-lan="stat">条相关条目，使用了</span><span id="stat_times">0</span><span class="language" data-lan="stat-time">毫秒</span>
+      <hr>
+    </div>
+    <div class="result" id="result">
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://cjhong.top/livelywallpaper/"" data-c="
+          &lt;p&gt;1.软件介绍&lt;br&gt;
+Lively Wallpaper是一款免费的视频桌面壁纸设置软件，功能和Wallpaper Engine类似，并且兼容Wallpaper Engine的视频包文件，不过视频包只能自己寻找或者社区下载。&lt;/p&gt;
+&lt;p&gt;2.使用说明&lt;br&gt;
+可以将视频和GIF文件，模拟器，HTML，网址和着色器，游戏转换为Windows桌面墙纸；当运行全屏应用程序/游戏时，墙纸将完全暂停播放（0％的CPU和GPU使用率）&lt;/p&gt;
+&lt;p&gt;3.软件特点&lt;br&gt;
+简单易用，拖放多媒体文件/网页等到 Lively 窗口上即可设置为动态壁纸；&lt;br&gt;
+支持视频硬件加速播放，基于MPV Player技术；&lt;br&gt;
+支持交互的 WebGL壁纸，基于轻量的Chromium引擎 Cef；&lt;br&gt;
+使用了Windows 10fluent 设计，完美适应系统的主题配置&lt;br&gt;
+使用 C# (.Net 核心) 开发，完全原生应用，性能高效稳定&lt;br&gt;
+完全开源且免费，没有任何收费项&lt;/p&gt;
+&lt;p&gt;4.性能和特性&lt;br&gt;
+当运行全屏程序和游戏时，Lively Wallpaper 会自动停止动态效果节省资源&lt;br&gt;
+可根据前台应用来设置动态壁纸的播放规则&lt;br&gt;
+完美支持多显示器、支持 HiDPI 分辨率、超宽纵横比等&lt;br&gt;
+可将一张动态壁纸分割到多台显示上播放&lt;br&gt;
+支持动态壁纸在多台显示器上同时镜像播放&lt;br&gt;
+支持不同的屏幕显示多个不同的动态壁纸&lt;/p&gt;
+&lt;h1 id=&#34;我以上一篇文章为例来演示一遍&#34;&gt;我以上一篇文章为例，来演示一遍&lt;/h1&gt;
+&lt;div style=&#34;position: relative; padding: 30% 45%;&#34;&gt;
+    &lt;iframe style=&#34;
+        position: absolute; 
+        width: 100%; 
+        height: 100%; 
+        left: 0; top: 0;&#34; 
+        src=&#34;/necc/1.mp4&#34; 
+        scrolling=&#34;no&#34; 
+        border=&#34;0&#34; 
+        frameborder=&#34;no&#34; 
+        framespacing=&#34;0&#34; 
+        allowfullscreen=&#34;true&#34;&gt;
+    &lt;/iframe&gt;
+&lt;/div&gt; 
+&lt;h1 id=&#34;首先我们先打开软件如图所示随后点击右上角加号添加壁纸&#34;&gt;首先我们先打开软件，如图所示，随后点击右上角加号，添加壁纸&lt;/h1&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;1&#34;&gt;&lt;img src=&#34;https://cjhong.top/post-images/1693318287062.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h1 id=&#34;我们将压缩包解压后的文件中的html结尾的文件拖进区域里面或者直接点击选取&#34;&gt;我们将压缩包解压后的文件中的HTML结尾的文件拖进区域里面或者直接点击选取&lt;/h1&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;2&#34;&gt;&lt;img src=&#34;https://cjhong.top/post-images/1693318322709.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;3&#34;&gt;&lt;img src=&#34;https://cjhong.top/post-images/1693318338227.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h1 id=&#34;随后会加载出壁纸最后点击确认等待一段时间即可完成壁纸切换&#34;&gt;随后会加载出壁纸最后点击确认，等待一段时间即可完成壁纸切换&lt;/h1&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;4&#34;&gt;&lt;img src=&#34;https://cjhong.top/post-images/1693318365724.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h1 id=&#34;最后如图效果&#34;&gt;最后如图效果&lt;/h1&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;5&#34;&gt;&lt;img src=&#34;https://cjhong.top/post-images/1693318403423.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+">Lively Wallpaper使用</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://cjhong.top/necczz/"" data-c="
+          &lt;p&gt;作为一名合格的高三牲，高考就是我们现今的最大目标，那高考倒计时也肯定是少不了的，但是个人认为手写的倒计时过于古老且不智能，不能实时更新，过于麻烦，同时也受提醒，所以就有现在这个想法。而且刚换了新平台，不折腾一下说不过去&lt;/p&gt;
+&lt;p&gt;接下来就是就是寻找别人的轮子了，换个皮就是自己的【乐】，找了很久才发现一个比较好，且符合个人审美的，但是问题也比较多，就比如中间那个大框特别碍眼，而且添加背景后，只能显示局部不能拉伸全屏，这就让人很不爽&lt;/p&gt;
+&lt;p&gt;经过艰苦的修改后，将这个大框去掉，然后图片可以正常显示，还加了一个看板娘添加活力，但是有时加载不出来，效果如图且代码如下&lt;br&gt;
+&lt;a href=&#34;https://www.cnblogs.com/cairbin/p/13535781.html&#34;&gt;这是作者原帖&lt;/a&gt;&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;1&#34;&gt;&lt;img src=&#34;https://cjhong.top/post-images/1693309526709.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h1 id=&#34;html&#34;&gt;HTML&lt;/h1&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html&amp;gt;
+    &amp;lt;head&amp;gt;
+        &amp;lt;meta charset=&amp;quot;utf-8&amp;quot; /&amp;gt;
+        &amp;lt;title&amp;gt;Countdown to NCEE&amp;lt;/title&amp;gt;
+        &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;css/1.css&amp;quot;&amp;gt;
+    &amp;lt;/head&amp;gt;
+    &amp;lt;body&amp;gt;
+        &amp;lt;div class=&amp;quot;container&amp;quot;&amp;gt;
+             &amp;lt;h2&amp;gt;&amp;lt;span&amp;gt;Countdown to NCEE&amp;lt;/span&amp;gt; 2023&amp;lt;/h2&amp;gt;
+             &amp;lt;div class=&amp;quot;countdown&amp;quot;&amp;gt;
+                 &amp;lt;div id=&amp;quot;day&amp;quot;&amp;gt;NA&amp;lt;/div&amp;gt;
+                 &amp;lt;div id=&amp;quot;hour&amp;quot;&amp;gt;NA&amp;lt;/div&amp;gt;
+                 &amp;lt;div id=&amp;quot;minute&amp;quot;&amp;gt;NA&amp;lt;/div&amp;gt;
+                 &amp;lt;div id=&amp;quot;second&amp;quot;&amp;gt;NA&amp;lt;/div&amp;gt;
+             &amp;lt;/div&amp;gt;
+         &amp;lt;/div&amp;gt;
+    &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+
+    function getEndTime(myYear){
+        var myEndTime = new Date(&#39;&#39;+myYear+&#39;/06/07 00:00:00&#39;);//更改日期
+        return myEndTime;
+    }
+
+    function countDown(){
+        var mydate = new Date();
+        var year = &#39;2023&#39;;
+        var EndTime = getEndTime(year);
+        var NowTime = new Date();
+        if( (EndTime.getTime() - NowTime.getTime() ) &amp;lt; 0){
+            year = mydate.getFullYear() + 1;
+            EndTime = getEndTime(year);
+        }
+        var t = EndTime.getTime() - NowTime.getTime();
+
+
+
+        var d=Math.floor(t/1000/60/60/24);
+        var h=Math.floor(t/1000/60/60%24);
+        var m=Math.floor(t/1000/60%60);
+        var s=Math.floor(t/1000%60);
+
+        document.getElementById(&#39;day&#39;).innerText = d;
+        document.getElementById(&#39;hour&#39;).innerText = h;
+        document.getElementById(&#39;minute&#39;).innerText = m;
+        document.getElementById(&#39;second&#39;).innerText = s;
+    } 
+    setInterval(countDown,1000);
+&amp;lt;/script&amp;gt;
+
+&amp;lt;!-- 看板娘管理 --&amp;gt;
+
+&amp;lt;script src=&amp;quot;https://l2dwidget.js.org/lib/L2Dwidget.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+	L2Dwidget
+	.on(&#39;*&#39;, (name) =&amp;gt; {
+	console.log(&#39;%c EVENT &#39; + &#39;%c -&amp;gt; &#39; + name, &#39;background: #222; color: yellow&#39;, &#39;background: #fff; color: #000&#39;)
+	})
+	.init({
+		display: {
+			// 居左
+			&amp;quot;position&amp;quot;: &amp;quot;right&amp;quot;,
+			// 宽度
+			&amp;quot;width&amp;quot;: 150,
+			// 高度
+			&amp;quot;height&amp;quot;: 250,
+			// 距左右
+			&amp;quot;hOffset&amp;quot;: 10,
+			// 距下
+			&amp;quot;vOffset&amp;quot;: 40
+		},
+ 
+		mobile: {
+			// 移动端，false为关闭
+			&amp;quot;show&amp;quot;: true,
+			&amp;quot;scale&amp;quot;: 0.5
+		},
+ 
+		dialog: {
+		// 开启对话框，false为关闭
+			enable: true,
+			script: {
+				// 每空闲 10 秒钟，显示一条一言
+				&#39;every idle 10s&#39;: &#39;$hitokoto$&#39;,
+				// 当触摸到角色身体
+				&#39;tap body&#39;: &#39;哎呀！别碰我！&#39;,
+				// 当触摸到角色头部
+				&#39;tap face&#39;: &#39;你干嘛，哎呦。&#39;
+			}
+		}
+	});
+&amp;lt;/script&amp;gt;
+
+
+&amp;lt;!--由江鸟更改部分代码，修正了背景图不能全屏 --&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;css&#34;&gt;CSS&lt;/h1&gt;
+&lt;pre&gt;&lt;code&gt;@import url(&amp;quot;https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;quot;);
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: &#39;Poppins&#39;, sans-serif;
+}
+
+body
+{
+    background: url(../image/bg.jpg); 
+    background-attachment: fixed;
+    background-blend-mode: hard-light;
+    -webkit-background-size: cover;
+    -o-background-size: cover;                
+    background-size: cover;
+
+}
+
+.container{
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    right: 100px;
+    bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container h2 {
+    text-align: center;
+    font-size: 10em;
+    line-height: 0.7em;
+    color: #333;
+    margin-top: -80px;
+}
+
+.container h2 span{
+    display: block;
+    font-weight: 300;
+    letter-spacing: 6px;
+    font-size: 0.2em;
+}
+.countdown{
+    display: flex;
+    margin-top: 50px;
+}
+.countdown div{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background: #333;
+    color: #fff;
+    margin: 0 15px;
+    font-size: 3em;
+    font-weight: 500;
+}
+.countdown div:before{
+    content: &#39;&#39;;
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    width: 100%;
+    height: 35px;
+    background: rgb(16, 187, 209);
+    color: #ffffff;
+    font-size: 0.35em;
+    line-height: 35px;
+    font-weight: 300;
+}
+.container #day:before{
+    content: &#39;Days&#39;;
+}
+.container #hour:before{
+    content: &#39;Hours&#39;;
+}
+.container #minute:before{
+    content: &#39;Minutes&#39;;
+}
+.container #second:before{
+    content: &#39;Seconds&#39;;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;去b站闲逛的时候又发现一个比较好看的，又是修改修改，我这里放上来，如下所示&lt;br&gt;
+&lt;a href=&#34;https://www.bilibili.com/video/BV1Tb411d7ru/?spm_id_from=333.880.my_history.page.click&amp;amp;vd_source=c5440bddf5fb910e7a2adeef0914761f&#34;&gt;这是作者视频&lt;/a&gt;&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;2&#34;&gt;&lt;img src=&#34;https://cjhong.top/post-images/1693311023901.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;这次就不一一放出代码了，我将其打包放在网盘，需要的可以直接下载&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.123pan.com/s/7GHSVv-t0xod.html&#34;&gt;源码下载&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://www.123pan.com/s/7GHSVv-i0xod.html&#34;&gt;软件下载&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;下载帮助&#34;&gt;下载帮助&lt;/h1&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;3&#34;&gt;&lt;img src=&#34;https://cjhong.top/post-images/1724213800104.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;这里也提供了在线链接，我做了有两个&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://cjhong.top/necc/1/&#34;&gt;传送门1&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://cjhong.top/necc/2/&#34;&gt;传送门2&lt;/a&gt;&lt;/p&gt;
+">高考倒计时背景（基于HTML/CSS+JS实现）</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://cjhong.top/miui/"" data-c="
+          &lt;h1 id=&#34;广告及不必要的消息推送去除&#34;&gt;广告及不必要的消息推送去除&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;1、应用商店&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;打开应用商店-我的-右上角设置-通知设置-将“新手帮助”和“推送消息”关闭。&lt;/p&gt;
+&lt;p&gt;我的-右上角设置-推荐-将“个性化推荐”和“相关推荐”关闭。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2、主题壁纸&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;打开主题壁纸-我的-右上角设置-将“个性化推荐”关闭。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3、手机管家&lt;/strong&gt;&lt;br&gt;
+打开手机管家-安全中心-右上角设置-将“推荐内容”关闭。&lt;/p&gt;
+&lt;p&gt;“垃圾清理”-右上角设置-将“推荐内容”关闭。&lt;/p&gt;
+&lt;p&gt;“应用管理”-右上角菜单栏（3个竖点）-将“资源推荐关闭”。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;4、日历&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;打开日历-右上角菜单栏（3个竖点）-设置-用户体验计划-将“内容推广”关闭。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;5、天气&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;打开天气-右上角菜单栏（3个竖点）-设置-用户体验计划-将“天气视频卡片”、“今日资讯卡片”、“天气服务推荐”三个全部关闭。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;6、浏览器(若不必要可删，更换更好的浏览器)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;打开浏览器-菜单-设置-将“接收消息通知”关闭。&lt;/p&gt;
+&lt;p&gt;设置-主页设置-将“资讯页面刷新按钮”和“个性化推荐”关两个闭，或者直接选择上面的简洁版或自定义。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;7、下载管理&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;打开下载管理-右上角菜单栏（3个竖点）-设置-信息流设置-将“资源推荐”和“热榜推荐”全部关闭。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;8、设置&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;打开设置-小米账号-隐私协议等-系统广告-将“系统工具广告”关闭。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;9、音乐(若不必要可删)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;打开音乐-左上角菜单栏-设置-将“个性化内容推荐”关闭。通知设置-将“通知提醒”关闭。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;10、小米视频(若不必要可删)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;打卡小米视频-我的-右上角设置-消息与推送-将“未读消息”、“接收小米推送”、“接收置顶消息”三个全部关闭。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;11、闹钟&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在建立了闹钟的情况下，点击主界面时间进入闹钟-右上角菜单栏（3个竖点）-生活早报-将“开启生活早报”关闭。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;12、小爱同学&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;打开小爱同学-右上角设置-关于小爱-隐私开关-将“个性化服务”关闭。&lt;/p&gt;
+&lt;p&gt;至于小米商城和小米社区这两个软件，如果需要的保留话，可以关闭一系列广告和推送。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;13、小米商城(若不必要可删)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;打开小米商城-我的-右上角设置-消息推送-将“消息推送”关闭，如果想接收消息，也可以设置免打扰的时间段。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;14、小米社区(若不必要可删)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;打开小米社区-我的-设置-高级设置-将“个性化推荐”和“信息流广告”两个关闭。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;进一步精简优化系统&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;1、关闭负一屏和桌面搜索框(没有需求可以关闭此功能）&lt;/p&gt;
+&lt;p&gt;打开设置-桌面-将“智能助理”和“桌面搜索框”两个都关闭。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2、关闭软件的自启动（注：如果微信有消息收接精准要求，不建议关掉自启动，会影响消息推送）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;打开设置-应用设置-应用管理-权限-自启动管理-关闭软件的自启动。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3、卸载完软件后其实并没有完全卸载干净，要进入文件管理，找到残留的文件夹将其删除。&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&#34;说明系统应用不可卸载需要使用adb命令卸载或冻结新手和小白不建议自己上手&#34;&gt;说明:系统应用不可卸载，需要使用adb命令卸载或冻结，新手和小白不建议自己上手&lt;/h1&gt;
+">MIUI优化</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://cjhong.top/aplayer/"" data-c="
+          &lt;h1 id=&#34;演示图片&#34;&gt;演示图片&lt;/h1&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;1&#34;&gt;&lt;img src=&#34;https://cjhong.top/post-images/1677209522092.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h1 id=&#34;使用&#34;&gt;使用&lt;/h1&gt;
+&lt;p&gt;直接将下列代码插入网页的js即可&lt;/p&gt;
+&lt;h1 id=&#34;注意事项&#34;&gt;注意事项&lt;/h1&gt;
+&lt;p&gt;插入可能造成与原来js冲突，影响全局，请谨慎使用！&lt;/p&gt;
+&lt;h1 id=&#34;实例代码&#34;&gt;实例代码&lt;/h1&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;!-- require APlayer --&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;https://npm.elemecdn.com/aplayer@1.10.1/dist/APlayer.min.css&amp;quot;&amp;gt;
+&amp;lt;script src=&amp;quot;https://npm.elemecdn.com/aplayer@1.10.1/dist/APlayer.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;!-- require MetingJS --&amp;gt;
+&amp;lt;script src=&amp;quot;https://npm.elemecdn.com/meting@2.0.1/dist/Meting.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+
+&amp;lt;meting-js 
+    fixed=&amp;quot;true&amp;quot; 
+    autoplay=&amp;quot;false&amp;quot; 
+    list-folded=&amp;quot;true&amp;quot; 
+    server=&amp;quot;netease&amp;quot; 
+    type=&amp;quot;playlist&amp;quot; 
+    id=&amp;quot;网易云歌单ID&amp;quot;&amp;gt;
+  &amp;lt;/meting-js&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;歌单id获取&#34;&gt;歌单ID获取&lt;/h1&gt;
+&lt;p&gt;如：https://music.163.com/#/my/m/music/playlist?id=&lt;code&gt;2884035&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;例如一个歌单链接，被红色标记的数字即为ID，可在网页链接中复制&lt;/p&gt;
+">博客添加Aplayer音乐播放器</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://cjhong.top/links/"" data-c="
+          &lt;script language=JavaScript&gt; 
+ 
+ function password() { 
+ 
+var testV = 1; 
+ 
+var pass1 = prompt(&#39;请输入密码,问题：我的外号拼音小写&#39;,&#39;&#39;); 
+ 
+while (testV &lt; 3) { 
+ 
+if (!pass1) 
+ 
+history.go(-1); 
+ 
+if (pass1 == &#34;xiuhong&#34;) { 
+ 
+alert(&#39;密码正确!&#39;); 
+ 
+break; 
+ 
+} 
+ 
+testV+=-1; 
+ 
+var pass1 = prompt(&#39;密码错误!有内鬼，中止交易&#39;); 
+ 
+} 
+ 
+if (pass1!=&#34;password&#34; &amp; testV ==3) 
+ 
+history.go(-1); 
+ 
+return &#34; &#34;; 
+ 
+} 
+ 
+document.write(password()); 
+ 
+&lt;/script&gt;
+&lt;p&gt;&lt;strong&gt;1.旋风加速器&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wwld.lanzoul.com/i76k916ufslc&#34;&gt;点击下载&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2.白鲸加速器&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bjch321.com/?mid=1017&#34;&gt;点击下载&lt;/a&gt;&lt;/p&gt;
+">VPN虚拟专用网络</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://cjhong.top/video/"" data-c="
+          &lt;h1 id=&#34;起因&#34;&gt;起因&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Windows用系统自带播放器打开 HEVC （H.265编码）格式视频时，提示缺少编码器无法播放，如图&lt;/strong&gt;&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;1&#34;&gt;&lt;img src=&#34;https://cjhong.top/post-images/1672971869740.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h1 id=&#34;经过&#34;&gt;经过&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;这时Windows媒体播放器提示我下载HEVC/H.265 视频扩展，我去微软商店一看&lt;/strong&gt;&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;2&#34;&gt;&lt;img src=&#34;https://cjhong.top/post-images/1672971903574.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h1 id=&#34;wc你怎么不去抢呢&#34;&gt;wc，你怎么不去抢呢&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;算了算了，我家境贫寒，买不起，于是我上网搜了许多教程，如以下两种&lt;/strong&gt;&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;3&#34;&gt;&lt;img src=&#34;https://cjhong.top/post-images/1672972076275.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;4&#34;&gt;&lt;img src=&#34;https://cjhong.top/post-images/1672972085730.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;但是这个这两种方法已经被微软商店屏蔽了，如图&lt;/strong&gt;&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;5&#34;&gt;&lt;img src=&#34;https://cjhong.top/post-images/1672972273838.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;于是我翻了其他的教程，找到了突破点，用微软商店软件获取网站获取微软商店的安装包，成功提取这个扩展的安装包，为了方便，我直接将这个扩展包分享出来直接下载，解压后双击安装即可&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;下载链接：&lt;a href=&#34;https://wwld.lanzoul.com/ib0Lg0k8rugh&#34;&gt;点击下载&lt;/a&gt;&lt;/p&gt;
+">为 Windows 10/11 安装免费 HEVC/H.265 视频扩展</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://cjhong.top/bilibili/"" data-c="
+          &lt;h1 id=&#34;b站链接的参数&#34;&gt;B站链接的参数&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;说明&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;例如：player.bilibili.com/player.html?&lt;code&gt;aid&lt;/code&gt;=81148317&amp;amp;&lt;code&gt;cid&lt;/code&gt;=138878361&amp;amp;&lt;code&gt;page&lt;/code&gt;=1&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;aid &lt;/code&gt;               	  视频ID 就是B站的av号&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;cid&lt;/code&gt;	                  应该是客户端的id,clientid的缩写（推测）&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;page&lt;/code&gt;	            第几个视频 也就是分P的 默认是1&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;as_wide&lt;/code&gt;	          是否宽屏 1：宽屏 0：小屏&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;high_quality&lt;/code&gt;	视频质量 1：最高视频质量 0：最低视频质量&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;danmaku&lt;/code&gt;	        是否开启弹幕 1：开启（默认） 0：关闭&lt;/p&gt;
+&lt;h1 id=&#34;修改默认视频质量&#34;&gt;修改默认视频质量&lt;/h1&gt;
+&lt;p&gt;B站默认视频质量是最低的，可以通过在src链接后面添加&lt;code&gt;&amp;amp;high_quality=1&lt;/code&gt;来设置&lt;/p&gt;
+&lt;h1 id=&#34;阻止跳转b站&#34;&gt;阻止跳转B站&lt;/h1&gt;
+&lt;p&gt;在网页上, 用户选择清晰度, 或者点击视频上面的一些图标, 会跳转到B站. 这个可通过设置 iframe 的 &lt;code&gt;sandbox&lt;/code&gt; 属性去禁止&lt;br&gt;
+如：&lt;br&gt;
+&lt;code&gt;sandbox=&amp;quot;allow-top-navigation allow-same-origin allow-forms allow-scripts&amp;quot;&lt;/code&gt;&lt;/p&gt;
+&lt;h1 id=&#34;通用视频插入框架&#34;&gt;通用视频插入框架&lt;/h1&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div style=&amp;quot;position: relative; padding: 30% 45%;&amp;quot;&amp;gt;
+    &amp;lt;iframe style=&amp;quot;
+        position: absolute; 
+        width: 100%; 
+        height: 100%; 
+        left: 0; top: 0;&amp;quot; 
+        src=&amp;quot;视频链接（&amp;amp;high_quality=1）--若为b站视频则加上这一参数&amp;quot; 
+        scrolling=&amp;quot;no&amp;quot; 
+        border=&amp;quot;0&amp;quot; 
+        frameborder=&amp;quot;no&amp;quot; 
+        framespacing=&amp;quot;0&amp;quot; 
+        allowfullscreen=&amp;quot;true&amp;quot;&amp;gt;
+    &amp;lt;/iframe&amp;gt;
+&amp;lt;/div&amp;gt; &lt;/code&gt;&lt;/pre&gt;
+">博客引用B站视频</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://cjhong.top/2022/"" data-c="
+          &lt;h1 id=&#34;这一年&#34;&gt;这一年&lt;/h1&gt;
+&lt;p&gt;1.我成功复刻了bilibili小电视，有一说一比较简单，就是代码部分令人抓狂 ；&lt;/p&gt;
+&lt;p&gt;2.成功入坑游戏手柄，不过并不怎么好用，不支持360模式，好多游戏玩不了;&lt;/p&gt;
+&lt;p&gt;3.电视盒子刷机，并以此开始学习liunx系统 ；&lt;/p&gt;
+&lt;p&gt;4.拥有了第一个移动硬盘，开始数据备份之路;&lt;/p&gt;
+&lt;p&gt;5.淘了一台z3735f的主板，只要75，捡漏了；&lt;/p&gt;
+&lt;p&gt;6.建成了我第一个个人网站，我取名为&lt;a href=&#34;https://xiuhong.ltd&#34;&gt;云深不知处&lt;/a&gt;&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;1&#34;&gt;&lt;img src=&#34;https://cjhong.top/post-images/1670742519352.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;7.第一个在bilibili发布的视频，主要为我在搭建网站时的经验教训&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding: 30% 45%;&#34;&gt;
+    &lt;iframe style=&#34;
+        position: absolute; 
+        width: 100%; 
+        height: 100%; 
+        left: 0; top: 0;&#34; 
+        src=&#34;//player.bilibili.com/player.html?aid=765910983&amp;bvid=BV1tr4y1e75b&amp;cid=493840721&amp;page=1&amp;high_quality=1&#34; 
+        scrolling=&#34;no&#34; 
+        border=&#34;0&#34; 
+        frameborder=&#34;no&#34; 
+        framespacing=&#34;0&#34; 
+        allowfullscreen=&#34;true&#34;&gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/br&gt;
+&lt;p&gt;8.摔坏了两台机，两个都是一模一样的，服了.......&lt;/p&gt;
+&lt;p&gt;9.遇到了一群有趣的灵魂 ......&lt;/p&gt;
+&lt;h1 id=&#34;十年饮冰难凉热血&#34;&gt;十年饮冰，难凉热血&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;新的一年，保持热爱，奔赴星海，所念皆星河 。&lt;/strong&gt;&lt;/p&gt;
+">2021总结</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://cjhong.top/wifi-usb/"" data-c="
+          &lt;h1 id=&#34;首先去嘉立创画pcb&#34;&gt;首先去嘉立创画pcb&lt;/h1&gt;
+&lt;h1 id=&#34;pcb原理图&#34;&gt;pcb原理图&lt;/h1&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;1&#34;&gt;&lt;img src=&#34;https://cjhong.top/post-images/1670742404513.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h1 id=&#34;3d渲染图&#34;&gt;3D渲染图&lt;/h1&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;2&#34;&gt;&lt;img src=&#34;https://cjhong.top/post-images/1670742412903.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h1 id=&#34;长度信息&#34;&gt;长度信息&lt;/h1&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;3&#34;&gt;&lt;img src=&#34;https://cjhong.top/post-images/1670742433600.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h1 id=&#34;介绍&#34;&gt;介绍&lt;/h1&gt;
+&lt;p&gt;芯片型号:RT3070L&lt;br&gt;
+驱动:免驱&lt;br&gt;
+带宽:150Mbps&lt;/p&gt;
+&lt;h1 id=&#34;用途&#34;&gt;用途&lt;/h1&gt;
+&lt;p&gt;主要是用在学校那个教学平台，那个平台也奇怪，有线网只能用在光猫上，接路由器的话识别不了。&lt;br&gt;
+想玩平板只能连无线网，只能破费了。&lt;/p&gt;
+&lt;h1 id=&#34;5月12日&#34;&gt;5月12日&lt;/h1&gt;
+&lt;p&gt;后续:这玩意对平台一点效用都没有，同个局域网依然连不上 ，这应该是平台的问题了&lt;/p&gt;
+&lt;h1 id=&#34;最后&#34;&gt;最后&lt;/h1&gt;
+&lt;p&gt;手残焊废，寄了&lt;/p&gt;
+&lt;h1 id=&#34;反转&#34;&gt;反转&lt;/h1&gt;
+&lt;p&gt;飞线又救回来了,换个壳接着用，嘿嘿&lt;/p&gt;
+">USB无线网卡改造</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://cjhong.top/pengzhihui/"" data-c="
+          &lt;h1 id=&#34;自制技术宅up耗时三个月自制b站最强小电视&#34;&gt;【自制】技术宅UP耗时三个月，自制B站最强小电视！&lt;/h1&gt;
+&lt;div style=&#34;position: relative; padding: 30% 45%;&#34;&gt;
+    &lt;iframe style=&#34;
+        position: absolute; 
+        width: 100%; 
+        height: 100%; 
+        left: 0; top: 0;&#34; 
+        src=&#34;//player.bilibili.com/player.html?aid=96244032&amp;bvid=BV1jE41137eu&amp;cid=164144278&amp;page=1&amp;high_quality=1&#34; 
+        scrolling=&#34;no&#34; 
+        border=&#34;0&#34; 
+        frameborder=&#34;no&#34; 
+        framespacing=&#34;0&#34; 
+        allowfullscreen=&#34;true&#34;&gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;自制如何把门禁卡做成你用不起的样子&#34;&gt;【自制】如何把门禁卡做成你用不起的样子？&lt;/h1&gt;
+&lt;div style=&#34;position: relative; padding: 30% 45%;&#34;&gt;
+    &lt;iframe style=&#34;
+        position: absolute; 
+        width: 100%; 
+        height: 100%; 
+        left: 0; top: 0;&#34; 
+        src=&#34;//player.bilibili.com/player.html?aid=286053672&amp;bvid=BV1Cf4y1y7KT&amp;cid=204078186&amp;page=1&amp;high_quality=1&#34; 
+        scrolling=&#34;no&#34; 
+        border=&#34;0&#34; 
+        frameborder=&#34;no&#34; 
+        framespacing=&#34;0&#34; 
+        allowfullscreen=&#34;true&#34;&gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;自制吃完的螃蟹不要扔裹上黑科技可以做一台火星车~&#34;&gt;【自制】吃完的螃蟹不要扔，裹上黑科技，可以做一台火星车~&lt;/h1&gt;
+&lt;div style=&#34;position: relative; padding: 30% 45%;&#34;&gt;
+    &lt;iframe style=&#34;
+        position: absolute; 
+        width: 100%; 
+        height: 100%; 
+        left: 0; top: 0;&#34; 
+        src=&#34;//player.bilibili.com/player.html?aid=328889258&amp;bvid=BV1ZA411e7Ff&amp;cid=216647261&amp;page=1&amp;high_quality=1&#34; 
+        scrolling=&#34;no&#34; 
+        border=&#34;0&#34; 
+        frameborder=&#34;no&#34; 
+        framespacing=&#34;0&#34; 
+        allowfullscreen=&#34;true&#34;&gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;自制机器人的心脏-超迷你foc矢量控制驱动器&#34;&gt;【自制】机器人的心脏--超迷你FOC矢量控制驱动器&lt;/h1&gt;
+&lt;div style=&#34;position: relative; padding: 30% 45%;&#34;&gt;
+    &lt;iframe style=&#34;
+        position: absolute; 
+        width: 100%; 
+        height: 100%; 
+        left: 0; top: 0;&#34; 
+        src=&#34;//player.bilibili.com/player.html?aid=414478323&amp;bvid=BV11V41127pq&amp;cid=232289126&amp;page=1&amp;high_quality=1&#34; 
+        scrolling=&#34;no&#34; 
+        border=&#34;0&#34; 
+        frameborder=&#34;no&#34; 
+        framespacing=&#34;0&#34; 
+        allowfullscreen=&#34;true&#34;&gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;自制你的下一个显示器可能是个充电宝&#34;&gt;【自制】你的下一个显示器，可能是个充电宝？&lt;/h1&gt;
+&lt;div style=&#34;position: relative; padding: 30% 45%;&#34;&gt;
+    &lt;iframe style=&#34;
+        position: absolute; 
+        width: 100%; 
+        height: 100%; 
+        left: 0; top: 0;&#34; 
+        src=&#34;//player.bilibili.com/player.html?aid=712897882&amp;bvid=BV17D4y1X7AT&amp;cid=260839008&amp;page=1&amp;high_quality=1&#34; 
+        scrolling=&#34;no&#34; 
+        border=&#34;0&#34; 
+        frameborder=&#34;no&#34; 
+        framespacing=&#34;0&#34; 
+        allowfullscreen=&#34;true&#34;&gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;自制如何制作一个赛博朋克风格的-百大up奖杯&#34;&gt;【自制】如何制作一个赛博朋克风格的 百大UP奖杯&lt;/h1&gt;
+&lt;div style=&#34;position: relative; padding: 30% 45%;&#34;&gt;
+    &lt;iframe style=&#34;
+        position: absolute; 
+        width: 100%; 
+        height: 100%; 
+        left: 0; top: 0;&#34; 
+        src=&#34;//player.bilibili.com/player.html?aid=331284654&amp;bvid=BV1VA411p7MD&amp;cid=286337150&amp;page=1&amp;high_quality=1&#34; 
+        scrolling=&#34;no&#34; 
+        border=&#34;0&#34; 
+        frameborder=&#34;no&#34; 
+        framespacing=&#34;0&#34; 
+        allowfullscreen=&#34;true&#34;&gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;自制我把自行车做成了-自-动-驾-驶&#34;&gt;自制】我把自行车做成了 自 动 驾 驶 ！！&lt;/h1&gt;
+&lt;div style=&#34;position: relative; padding: 30% 45%;&#34;&gt;
+    &lt;iframe style=&#34;
+        position: absolute; 
+        width: 100%; 
+        height: 100%; 
+        left: 0; top: 0;&#34; 
+        src=&#34;//player.bilibili.com/player.html?aid=418448598&amp;bvid=BV1fV411x72a&amp;cid=350821534&amp;page=1&amp;high_quality=1&#34; 
+        scrolling=&#34;no&#34; 
+        border=&#34;0&#34; 
+        frameborder=&#34;no&#34; 
+        framespacing=&#34;0&#34; 
+        allowfullscreen=&#34;true&#34;&gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;自制我造了一台-钢-铁-侠-的-机-械-臂&#34;&gt;【自制】我造了一台 钢 铁 侠 的 机 械 臂 ！&lt;/h1&gt;
+&lt;div style=&#34;position: relative; padding: 30% 45%;&#34;&gt;
+    &lt;iframe style=&#34;
+        position: absolute; 
+        width: 100%; 
+        height: 100%; 
+        left: 0; top: 0;&#34; 
+        src=&#34;//player.bilibili.com/player.html?aid=420981979&amp;bvid=BV12341117rG&amp;cid=421416333&amp;page=1&amp;high_quality=1&#34; 
+        scrolling=&#34;no&#34; 
+        border=&#34;0&#34; 
+        frameborder=&#34;no&#34; 
+        framespacing=&#34;0&#34; 
+        allowfullscreen=&#34;true&#34;&gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;稚晖君过于先进的科技对普通人来说像魔法一样我觉得很酷采访&#34;&gt;稚晖君：“过于先进的科技对普通人来说像魔法一样，我觉得很酷”（采访）&lt;/h1&gt;
+&lt;div style=&#34;position: relative; padding: 30% 45%;&#34;&gt;
+    &lt;iframe style=&#34;
+        position: absolute; 
+        width: 100%; 
+        height: 100%; 
+        left: 0; top: 0;&#34; 
+        src=&#34;//player.bilibili.com/player.html?aid=677612560&amp;bvid=BV1zm4y197Py&amp;cid=467867782&amp;page=1&amp;high_quality=1&#34; 
+        scrolling=&#34;no&#34; 
+        border=&#34;0&#34; 
+        frameborder=&#34;no&#34; 
+        framespacing=&#34;0&#34; 
+        allowfullscreen=&#34;true&#34;&gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;自制我做了个能动的-电-脑-配-件&#34;&gt;【自制】我做了个能动的 电 脑 配 件！&lt;/h1&gt;
+&lt;div style=&#34;position: relative; padding: 30% 45%;&#34;&gt;
+    &lt;iframe style=&#34;
+        position: absolute; 
+        width: 100%; 
+        height: 100%; 
+        left: 0; top: 0;&#34; 
+        src=&#34;//player.bilibili.com/player.html?aid=212189891&amp;bvid=BV1ka411b76m&amp;cid=548248234&amp;page=1&amp;high_quality=1&#34; 
+        scrolling=&#34;no&#34; 
+        border=&#34;0&#34; 
+        frameborder=&#34;no&#34; 
+        framespacing=&#34;0&#34; 
+        allowfullscreen=&#34;true&#34;&gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;自制我做了一把-模-块-化-机-械-键-盘-软核&#34;&gt;【自制】我做了一把 模 块 化 机 械 键 盘 !【软核】&lt;/h1&gt;
+&lt;div style=&#34;position: relative; padding: 30% 45%;&#34;&gt;
+    &lt;iframe style=&#34;
+        position: absolute; 
+        width: 100%; 
+        height: 100%; 
+        left: 0; top: 0;&#34; 
+        src=&#34;//player.bilibili.com/player.html?aid=856138376&amp;bvid=BV19V4y1J7Hx&amp;cid=782251995&amp;page=1&amp;high_quality=1&#34; 
+        scrolling=&#34;no&#34; 
+        border=&#34;0&#34; 
+        frameborder=&#34;no&#34; 
+        framespacing=&#34;0&#34; 
+        allowfullscreen=&#34;true&#34;&gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+">稚晖作品</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://cjhong.top/secure/"" data-c="
+          &lt;h1 id=&#34;事情起因&#34;&gt;事情起因&lt;/h1&gt;
+&lt;p&gt;为了避免学校施压，学生愉快地在学校生活，在这里分享一下&lt;br&gt;
+安全教育平台的刷题教程 ，来帮助广大师生解决这一问题。&lt;/p&gt;
+&lt;h1 id=&#34;效果示意图&#34;&gt;效果示意图&lt;/h1&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;1&#34;&gt;&lt;img src=&#34;https://cjhong.top/post-images/1670742306012.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h1 id=&#34;代码示图&#34;&gt;代码示图&lt;/h1&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;2&#34;&gt;&lt;img src=&#34;https://cjhong.top/post-images/1670742316402.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h1 id=&#34;视频教程&#34;&gt;视频教程&lt;/h1&gt;
+&lt;div style=&#34;position: relative; padding: 30% 45%;&#34;&gt;
+    &lt;iframe style=&#34;
+        position: absolute; 
+        width: 100%; 
+        height: 100%; 
+        left: 0; top: 0;&#34; 
+        src=&#34;http://cn.zhikun.ml/usr/uploads/2022/10/3862522752.mp4&#34; 
+        scrolling=&#34;no&#34; 
+        border=&#34;0&#34; 
+        frameborder=&#34;no&#34; 
+        framespacing=&#34;0&#34; 
+        allowfullscreen=&#34;true&#34;&gt;
+    &lt;/iframe&gt;
+&lt;/div&gt; 
+&lt;h1 id=&#34;相关下载&#34;&gt;相关下载&lt;/h1&gt;
+&lt;p&gt;相关代码以及扩展文件我已放在资源下载中 ，需要的可以自行&lt;br&gt;
+下载使用 ，还有里面有着教学视频，可以对着尝试。&lt;/p&gt;
+">安全教育平台自动刷题教程</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://cjhong.top/resource/"" data-c="
+          &lt;h1 id=&#34;收集各种资源会不定时更新密码统一为1001&#34;&gt;收集各种资源，会不定时更新，密码统一为：1001&lt;/h1&gt;
+&lt;h1 id=&#34;高考倒计时源码&#34;&gt;高考倒计时源码&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.123pan.com/s/7GHSVv-aJ9od.html&#34;&gt;点击此处下载&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;windows视频扩展&#34;&gt;Windows视频扩展&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://wwld.lanzoul.com/ib0Lg0k8rugh&#34;&gt;点击此处下载&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;vpn虚拟专用网络&#34;&gt;VPN虚拟专用网络&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://cjhong.top/links&#34;&gt;点击此处下载&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;-音乐区-&#34;&gt;------------音乐区---------------&lt;/h1&gt;
+&lt;h1 id=&#34;lx-music&#34;&gt;LX music&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://wwld.lanzoul.com/i8Yby16ug89g&#34;&gt;点击此处下载&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;歌词适配&#34;&gt;歌词适配&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://wwld.lanzoul.com/iLkbf16xaabc&#34;&gt;点击此处下载&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;listen-1&#34;&gt;listen 1&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://wwld.lanzoul.com/iHWXr16uhnmf&#34;&gt;点击此处下载&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;qmd&#34;&gt;QMD&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://jzen.lanzoui.com/imedqqgxs0d&#34;&gt;点击此处下载&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;遇见音乐&#34;&gt;遇见音乐&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://wwld.lanzoul.com/iYhE916uh80d&#34;&gt;点击此处下载&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;#----------------工具类--------------&lt;/p&gt;
+&lt;h1 id=&#34;reex&#34;&gt;Reex&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://wwld.lanzoul.com/ifDKr16ufc8d&#34;&gt;点击此处下载&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;李跳跳&#34;&gt;李跳跳&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://wwld.lanzoul.com/iDri116ufd5g&#34;&gt;点击此处下载&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;清浊&#34;&gt;清浊&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://wwld.lanzoul.com/i9Pbc16ufd8j&#34;&gt;点击此处下载&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;retro-music&#34;&gt;Retro Music&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://wwld.lanzoul.com/i2pHZ16ufcej&#34;&gt;点击此处下载&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;wifi万能钥匙可以看密码&#34;&gt;WiFi万能钥匙（可以看密码）&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://wwld.lanzoul.com/iGZyv16ufd2d&#34;&gt;点击此处下载&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;heu-kms-activator&#34;&gt;HEU KMS Activator&lt;/h1&gt;
+&lt;p&gt;介绍：数字激活windows，以及Mircosoft 365全家桶&lt;br&gt;
+&lt;a href=&#34;https://wwld.lanzoul.com/ixfZ10k8rcsb&#34;&gt;点击此处下载&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;office-tool&#34;&gt;Office Tool&lt;/h1&gt;
+&lt;p&gt;介绍：一键安装Mircosoft 365全家桶&lt;br&gt;
+&lt;a href=&#34;https://wwld.lanzoul.com/izjYm0k8rgpc&#34;&gt;点击此处下载&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;downkyi&#34;&gt;Downkyi&lt;/h1&gt;
+&lt;p&gt;介绍：B站视频下载工具，支持批量下载，支持8K、HDR、杜比视界，提供工具箱（音视频提取、去水印等）&lt;br&gt;
+&lt;a href=&#34;https://wwld.lanzoul.com/isHKd0k8q97g&#34;&gt;Windows&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;puran-file-recovery&#34;&gt;Puran File Recovery&lt;/h1&gt;
+&lt;p&gt;介绍：十分好用，恢复效果十分nice，限于免费，功能有限&lt;br&gt;
+&lt;a href=&#34;https://wwld.lanzoul.com/iTz3F0k8qpaf&#34;&gt;Windows&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;watt-toolkit&#34;&gt;Watt Toolkit&lt;/h1&gt;
+&lt;p&gt;介绍：加速器，适用于GitHub和微软商店访问以及steam等&lt;br&gt;
+&lt;a href=&#34;https://wwld.lanzoul.com/i5Rzg0k8rp8j&#34;&gt;Windows 32bit&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://wwld.lanzoul.com/iWwSg0k8rlkh&#34;&gt;Windows 64bit&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;ltsc-add-microsoftstore&#34;&gt;LTSC-Add-MicrosoftStore&lt;/h1&gt;
+&lt;p&gt;介绍：用于安装微软商店&lt;br&gt;
+&lt;a href=&#34;https://wwb.lanzoul.com/ifp1t07agvxi&#34;&gt;Windows&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;hibituninstaller&#34;&gt;HiBitUninstaller&lt;/h1&gt;
+&lt;p&gt;介绍：清理和删除软件&lt;br&gt;
+&lt;a href=&#34;https://wwld.lanzoul.com/iUjul0k8rcve&#34;&gt;Windows&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;softcnkiller&#34;&gt;SoftCnKiller&lt;/h1&gt;
+&lt;p&gt;介绍：清理和删除流氓软件&lt;br&gt;
+&lt;a href=&#34;https://wwld.lanzoul.com/iEocs0k8r51c&#34;&gt;Windows&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;图拉丁硬件检测&#34;&gt;图拉丁硬件检测&lt;/h1&gt;
+&lt;p&gt;介绍：检测电脑配置&lt;br&gt;
+&lt;a href=&#34;https://wwb.lanzoul.com/ilUuo0a3ks2j&#34;&gt;Windows&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;twinkle&#34;&gt;Twinkle&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.123pan.com/s/7GHSVv-BJ9od.html&#34;&gt;Windows&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;dism&#34;&gt;Dism++&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.123pan.com/s/7GHSVv-JJ9od.html&#34;&gt;Windows&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;diskgenius&#34;&gt;DiskGenius&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.123pan.com/s/7GHSVv-IJ9od.html&#34;&gt;Windows&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;图标空白&#34;&gt;图标空白&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.123pan.com/s/7GHSVv-MJ9od.html&#34;&gt;Windows&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;windows水印去除&#34;&gt;Windows水印去除&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.123pan.com/s/7GHSVv-wJ9od.html&#34;&gt;Windows&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;windows-11安卓子系统&#34;&gt;Windows 11安卓子系统&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.123pan.com/s/7GHSVv-gJ9od.html&#34;&gt;Windows&lt;/a&gt;&lt;/p&gt;
+"> 资源下载</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://cjhong.top/zhihuijun/"" data-c="
+          &lt;figure data-type=&#34;image&#34; tabindex=&#34;1&#34;&gt;&lt;img src=&#34;https://cjhong.top/post-images/1686046379464.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h1 id=&#34;人物简介&#34;&gt;人物简介&lt;/h1&gt;
+&lt;p&gt;彭志辉，江西吉安人，科技圈知名KOL，人称“稚晖君”“野生钢铁侠”&lt;/p&gt;
+&lt;h1 id=&#34;人物经历&#34;&gt;人物经历&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;1993年，出生于江西吉安&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;2015年，本科毕业于电子科技大学生命科学与技术学院&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;2018年，研究生毕业于电子科技大学信息与通信工程学院；毕业后就职于OPPO研究院AI实验室担任算法工程师&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;2020年底，加入华为，从事昇腾AI芯片和AI算法相关研究工作&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;2022年12月27日，离开华为，开始创业&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;稚晖的个人站&#34;&gt;稚晖的个人站&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://pengzhihui.xyz/&#34;&gt;https://pengzhihui.xyz/已失效&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.lindum.top:4000/&#34;&gt;高仿站，可以访问&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;亿点点成就&#34;&gt;亿点点成就&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;2022年1月，获得哔哩哔哩“2021年度百大UP主”称号&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;2&#34;&gt;&lt;img src=&#34;https://cjhong.top/post-images/1686045404164.webp&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;在祝融号着陆火星一步实现绕、落、巡之际，作为青年代表对话天问一号总设计师张荣桥老师&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;3&#34;&gt;&lt;img src=&#34;https://cjhong.top/post-images/1686045340309.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h1 id=&#34;稚晖君作品&#34;&gt;稚晖君作品&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://cjhong.top/pengzhihui/&#34;&gt;点击跳转&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;他对自己的评价&#34;&gt;他对自己的评价&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;野生钢铁侠，科技教徒，创新爱好者😆&lt;/li&gt;
+&lt;li&gt;18年毕业于UESTC，两次在校创业经历，曾就职于OPPO研究院AI实验室，后通过“天才少年计划”加入华为&lt;/li&gt;
+&lt;li&gt;AI算法工程师，软硬件兼攻极客一只，热爱一切电子相关技术&lt;/li&gt;
+&lt;li&gt;目前正致力于自研深度学习推理框架与移动计算平台的异构加速相关技术&lt;/li&gt;
+&lt;li&gt;对机器人、IoT、各种软硬件系统和机器学习相关技术经验丰富&lt;/li&gt;
+&lt;li&gt;灵魂画手，业余工业设计爱好者，有自以为是的审美&lt;/li&gt;
+&lt;li&gt;Arduino中文社区版主 ，B站科技区知名大鸽子&lt;/li&gt;
+&lt;li&gt;喜欢干脆面和可乐，对花椰菜有着绝对不食用的观点&lt;/li&gt;
+&lt;li&gt;爱玩吉他和口琴，正在学摄影&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;四川在线评&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;彭志辉是一个很乐观的人，从来不会觉得生活、学习中的坎坷是人生的挫折。同时，彭志辉很擅长折腾。彭志辉是一个很有情怀年轻人，他有当代年轻人的阳光和骨气，在当时同样拿到很多顶级外企的offer而华为正在受到美国制裁的情况下，毅然选择加入这家中国企业&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;彭志辉研究生期间的老师、师母何晓玲评&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;彭志辉是一名勤奋好学，积极向上的阳光男孩。“我认为他进入华为是水到渠成的事情，这是他努力的结果，我们并没有觉得多么惊讶。”&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;他的话当年封号鸽王不管往哪个方向走都是高产&#34;&gt;他的话(当年封号鸽王，不管往哪个方向走，都是高产)&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;接下来我会开启一段新的事业，去做更有挑战的事情，不是因为我们已经有把握把它做好，而是因为，这件事是我一直以来的热爱和梦想。君子战虽有陈，而勇为本焉，年轻热血不知天高地厚也就是我最后的倔强吧&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;曾经的菜鸟像鸵鸟一样把头扎进沙漠 然后发现在沙子下面的是星辰大海&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;知识的积累并不是一蹴而就的，要始终保持菜鸟的心态，持续学习成长，始终去做对自我提升最有帮助的事情&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;越热爱越幸运-十年饮冰难凉热血让我们一起共勉&#34;&gt;越热爱，越幸运。十年饮冰，难凉热血，让我们一起共勉&lt;/h1&gt;
+&lt;p&gt;最后，希望越来越多的人可以了解到稚晖君，下面为我个人制作的人物介绍PPT，用于素材分享，有需要的同志可以自取&lt;/p&gt;
+&lt;h1 id=&#34;ppt&#34;&gt;PPT&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.123pan.com/s/7GHSVv-SrAod.html&#34;&gt;下载&lt;/a&gt;&lt;/p&gt;
+">稚晖君-保持热爱，奔赴星海</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://cjhong.top/newyear/"" data-c="
+          &lt;p&gt;随着新年钟声响起，&lt;/p&gt;
+&lt;p&gt;我们都又长了一岁。&lt;/p&gt;
+&lt;p&gt;对于过去的一年，&lt;/p&gt;
+&lt;p&gt;还有我们在世上生活的这些年，&lt;/p&gt;
+&lt;p&gt;总要有句结束语：&lt;/p&gt;
+&lt;p&gt;虽然人生在世会有种种不如意，&lt;/p&gt;
+&lt;p&gt;但你仍可以在幸福与不幸中作选择。&lt;/p&gt;
+&lt;p&gt;新年是检讨和许愿的节日，&lt;/p&gt;
+&lt;p&gt;让营营役役了三百多天的自己，重整生活，&lt;/p&gt;
+&lt;p&gt;好好执拾一下活得有点零乱的生活。&lt;/p&gt;
+&lt;p&gt;时间有时也是空间。&lt;/p&gt;
+&lt;p&gt;当我们从旧的一年跨入新的一年，&lt;/p&gt;
+&lt;p&gt;就像从一个空间走进另一个空间。&lt;/p&gt;
+&lt;p&gt;这个崭新的空间又大又空，&lt;/p&gt;
+&lt;p&gt;充满不曾使用过的时间。&lt;/p&gt;
+">新年快乐！</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://cjhong.top/about/"" data-c="
+          &lt;h1 id=&#34;我&#34;&gt;我&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;做着自己喜欢的事&lt;/li&gt;
+&lt;li&gt;沉迷在自己的世界里&lt;/li&gt;
+&lt;li&gt;倾于网站搭建学习&lt;/li&gt;
+&lt;li&gt;正在努力学习开发板&lt;/li&gt;
+&lt;li&gt;喜欢迷你的东西，且追求提升技术水平&lt;/li&gt;
+&lt;li&gt;喜欢在大自然中奔跑&lt;/li&gt;
+&lt;li&gt;强迫症一枚&lt;/li&gt;
+&lt;li&gt;喜欢音乐&lt;/li&gt;
+&lt;li&gt;更喜欢游戏人间&lt;/li&gt;
+&lt;li&gt;Mc骨灰级玩家&lt;/li&gt;
+&lt;li&gt;Alan教主忠诚粉丝&lt;/li&gt;
+&lt;li&gt;比较摆烂&lt;/li&gt;
+&lt;li&gt;文章少更新，大鸽子&lt;/li&gt;
+&lt;li&gt;有点烂好人...&lt;/li&gt;
+&lt;li&gt;持续更新中 …&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;1&#34;&gt;&lt;img src=&#34;https://cjhong.top/post-images/1688690179242.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+">关于我</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://cjhong.top/hello-gridea/"" data-c="
+          &lt;p&gt;👏  欢迎使用 &lt;strong&gt;Gridea&lt;/strong&gt; ！&lt;br&gt;
+✍️  &lt;strong&gt;Gridea&lt;/strong&gt; 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/getgridea/gridea&#34;&gt;Github&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://gridea.dev/&#34;&gt;Gridea 主页&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://fehey.com/&#34;&gt;示例网站&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;特性&#34;&gt;特性👇&lt;/h2&gt;
+&lt;p&gt;📝  你可以使用最酷的 &lt;strong&gt;Markdown&lt;/strong&gt; 语法，进行快速创作&lt;/p&gt;
+&lt;p&gt;🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片&lt;/p&gt;
+&lt;p&gt;🏷️  你可以对文章进行标签分组&lt;/p&gt;
+&lt;p&gt;📋  你可以自定义菜单，甚至可以创建外部链接菜单&lt;/p&gt;
+&lt;p&gt;💻  你可以在 &lt;strong&gt;Windows&lt;/strong&gt;，&lt;strong&gt;MacOS&lt;/strong&gt; 或 &lt;strong&gt;Linux&lt;/strong&gt; 设备上使用此客户端&lt;/p&gt;
+&lt;p&gt;🌎  你可以使用 &lt;strong&gt;𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌&lt;/strong&gt; 或 &lt;strong&gt;Coding Pages&lt;/strong&gt; 向世界展示，未来将支持更多平台&lt;/p&gt;
+&lt;p&gt;💬  你可以进行简单的配置，接入 &lt;a href=&#34;https://github.com/gitalk/gitalk&#34;&gt;Gitalk&lt;/a&gt; 或 &lt;a href=&#34;https://github.com/SukkaW/DisqusJS&#34;&gt;DisqusJS&lt;/a&gt; 评论系统&lt;/p&gt;
+&lt;p&gt;🇬🇧  你可以使用&lt;strong&gt;中文简体&lt;/strong&gt;或&lt;strong&gt;英语&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力&lt;/p&gt;
+&lt;p&gt;🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步&lt;/p&gt;
+&lt;p&gt;🌱 当然 &lt;strong&gt;Gridea&lt;/strong&gt; 还很年轻，有很多不足，但请相信，它会不停向前 🏃&lt;/p&gt;
+&lt;p&gt;未来，它一定会成为你离不开的伙伴&lt;/p&gt;
+&lt;p&gt;尽情发挥你的才华吧！&lt;/p&gt;
+&lt;p&gt;😘 Enjoy~&lt;/p&gt;
+">Hello Gridea</a>
+      </div>
+      
+    </div>
+    <div class="page">
+      <div id="page_ul"></div>
+    </div>
+  </div>
+</div>
+<script>
+  !function () {
+    let searchMask = document.querySelector('#search_mask');
+    let result = document.querySelector('#result');
+    let items = document.querySelectorAll('.item');
+    let searchBox = document.querySelector('#search');
+    let statCount = document.querySelector('#stat_count');
+    let statTimes = document.querySelector('#stat_times');
+    let pageUl = document.querySelector('#page_ul');
+    let close = document.querySelector('#close');
+    
+    close.addEventListener('click', function() {
+      searchMask.style = 'display: none;'
+    })
+
+    let finds = [];
+    let contents = [];
+    let pageSize = 10;
+    items.forEach(item => {
+      let a = item.querySelector('a');
+      contents.push({
+        title: a.innerText,
+        details: a.dataset.c,
+        link: a.href
+      })
+      item.remove();
+    })
+
+    function insertStr(soure, start, count) {
+      let newStr = soure.substr(start, count);
+      return soure.slice(0, start) + '<em>' + newStr + '</em>' + soure.slice(start + count);
+    }
+
+    pageUl.addEventListener('click', function(event) {
+      let target = event.target;
+      if (target.__proto__ === HTMLSpanElement.prototype) {
+        appendResults(parseInt(target.dataset.i));
+      }
+    })
+
+    function appendResults(index) {
+      let htmlResult = '';
+      let start = index || 0;
+      let end = Math.min(start + pageSize, finds.length);
+      for (let i = start; i < end; i++) {
+        const current = finds[i];
+        let html = current.title;
+        let sum = 0;
+        let positions = current.positions;
+        positions.forEach(position => {
+          html = insertStr(html, position.start + sum, position.count);
+          sum += 9;
+        })
+        htmlResult += `<div class="item"><a class="result-title" href="${current.link}">${html}</a></div>`;
+      }
+      result.innerHTML = htmlResult;
+      pageUl.innerHTML = '';
+      let count = finds.length / pageSize;
+      let lis = '';
+      if (start !== 0) {
+        lis += `<span class="fa fa-angle-left" data-i='${start - 1}'></span>`;
+      }
+      for (let i = 0; i < count; i++) {
+        lis += `<span class='${i === start?'current':''}' data-i='${i}'>${i+1}</span>`;     
+      }
+      if (start+1 < count) {
+        lis += `<span class="fa fa-angle-right" data-i='${start+1}'></span>`;  
+      }
+      pageUl.innerHTML = lis;
+    }
+
+    function search(delay) {
+      let timer = null
+      return function () {
+        clearTimeout(timer)
+        timer = setTimeout(() => {
+          let start = Date.now();
+          let segments = searchBox.value.split(' ').filter(c => c != '');
+          if (segments.length <= 0) {
+            return;
+          }
+          finds = [];
+          let htmlResult = '';
+          contents.forEach(content => {
+            let title = content.title;
+            let positions = [];
+            let find = false;
+            segments.forEach((segment) => {
+              if (content.title.includes(segment)) {
+                find = true;
+                positions.push({
+                  start: content.title.indexOf(segment),
+                  count: segment.length
+                })
+              } else if (content.details.includes(segment)) {
+                find = true;
+              }
+            });
+            if (find) {
+              finds.push({
+                title: content.title,
+                link: content.link,
+                positions
+              });
+            }
+          })
+          appendResults(0);
+          statCount.textContent = finds.length;
+          statTimes.textContent = Date.now() - start;
+        }, delay)
+      }
+    }
+    searchBox.addEventListener('input', search(200));
+  }()
+</script>
+
+<input hidden id="copy" />
+<script>
+  !function () {
+    let times = document.querySelectorAll('.publish-time');
+    for (let i = 0; i < times.length; i++) {
+      let date = times[i].dataset.t;
+      let time = Math.floor((new Date().getTime() - new Date(date).getTime()) / 1000);
+      if (time < 60) {
+        str = time + '秒之前';
+      } else if (time < 3600) {
+        str = Math.floor(time / 60) + '分钟之前';
+      } else if (time >= 3600 && time < 86400) {
+        str = Math.floor(time / 3600) + '小时之前';
+      } else if (time >= 86400 && time < 259200) {
+        str = Math.floor(time / 86400) + '天之前';
+      } else {
+        str = times[i].textContent;
+      }
+      times[i].textContent = str;
+    }
+  }();
+</script>
+
+<script>
+  let language = '';
+  if (language !== '') {
+    let map = new Map();
+    if (language === 'en') {
+      map.set('search', 'Search');
+      map.set('category', 'Categories');
+      map.set('article', 'Articles');
+      map.set('tag', 'Tags');
+      map.set('top', 'Top');
+      map.set('publish', 'published');
+      map.set('minute', ' minutes');
+      map.set('read-more', 'Read More');
+      map.set('view', 'View');
+      map.set('words', ' words');
+      map.set('category-in', 'category in');
+      map.set('preview', 'Meta');
+      map.set('index', 'Toc');
+      map.set('no-archives', "You haven't created yet");
+      map.set('archives', " articles in total");
+      map.set('cloud-tags', " tags in total");
+      map.set('copyright', "Copyright: ");
+      map.set('author', "Author: ");
+      map.set('link', "Link: ");
+      map.set('leave-message', "Leave a message");
+      map.set('format', "Links Format");
+      map.set('site-name', "Name: ");
+      map.set('site-link', "Link: ");
+      map.set('site-desc', "Desc: ");
+      map.set('stat', " related results, taking ");
+      map.set('stat-time', " ms");
+      map.set('site-img', "Image: ");
+    }
+
+    if (map.size > 0) {
+      let lanElems = document.querySelectorAll('.language');
+      lanElems.forEach(elem => {
+        let lan = elem.dataset.lan, text = map.get(lan);
+        if (elem.__proto__ === HTMLInputElement.prototype) {
+          elem.placeholder = text
+        } else {
+          if (elem.dataset.count) {
+            text = elem.dataset.count + text;
+          }
+          elem.textContent = text;
+        }
+      })
+    }
+  }
+
+  window.Clipboard = (function (window, document, navigator) {
+    var textArea,
+      copy;
+
+    // 判断是不是ios端
+    function isOS() {
+      return navigator.userAgent.match(/ipad|iphone/i);
+    }
+    //创建文本元素
+    function createTextArea(text) {
+      textArea = document.createElement('textArea');
+      textArea.value = text;
+      textArea.style.width = 0;
+      textArea.style.height = 0;
+      textArea.clientHeight = 0;
+      textArea.clientWidth = 0;
+      document.body.appendChild(textArea);
+    }
+    //选择内容
+    function selectText() {
+      var range,
+        selection;
+
+      if (isOS()) {
+        range = document.createRange();
+        range.selectNodeContents(textArea);
+        selection = window.getSelection();
+        selection.removeAllRanges();
+        selection.addRange(range);
+        textArea.setSelectionRange(0, 999999);
+      } else {
+        textArea.select();
+      }
+    }
+
+    //复制到剪贴板
+    function copyToClipboard() {
+      try {
+        document.execCommand("Copy")
+      } catch (err) {
+        alert("复制错误！请手动复制！")
+      }
+      document.body.removeChild(textArea);
+    }
+
+    copy = function (text) {
+      createTextArea(text);
+      selectText();
+      copyToClipboard();
+    };
+
+    return {
+      copy: copy
+    };
+  })(window, document, navigator);
+
+  function copyCode(e) {
+    if (e.srcElement.tagName === 'SPAN' && e.srcElement.classList.contains('copy-code')) {
+      let code = e.currentTarget.querySelector('code');
+      var text = code.innerText;
+      if (e.srcElement.textContent === '复制成功') {
+        return;
+      }
+      e.srcElement.textContent = '复制成功';
+      (function (elem) {
+        setTimeout(() => {
+          if (elem.textContent === '复制成功') {
+            elem.textContent = '复制代码'
+          }
+        }, 1000);
+      })(e.srcElement)
+      Clipboard.copy(text);
+    }
+  }
+
+  let pres = document.querySelectorAll('pre');
+  pres.forEach(pre => {
+    let code = pre.querySelector('code');
+    let copyElem = document.createElement('span');
+    copyElem.classList.add('copy-code');
+    copyElem.textContent = '复制代码';
+    pre.appendChild(copyElem);
+    pre.onclick = copyCode
+  })
+
+</script>
+<script src="/media/js/motion.js"></script>
+
+
+  <script
+    src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+  <script>
+    var scroll = new SmoothScroll('a[href*="#"]', {
+      speed: 200
+    });
+  </script>
+
+
+
+<script src="/media/js/mouse/peace.js"></script>
+
+
+  <script src="/media/js/cool.js"></script>
+
+
+
+</html>
