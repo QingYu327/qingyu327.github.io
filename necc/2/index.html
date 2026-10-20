@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Countdown to NCEE</title>
+        <link rel="stylesheet" href="css/1.css">
+    </head>
+    <body>
+        <div class="container">
+             <h2><span>Countdown to NCEE</span> 2025</h2>
+             <div class="countdown">
+                 <div id="day">NA</div>
+                 <div id="hour">NA</div>
+                 <div id="minute">NA</div>
+                 <div id="second">NA</div>
+             </div>
+         </div>
+    </body>
+</html>
+<script type="text/javascript">
+
+    function getEndTime(myYear){
+        var myEndTime = new Date(''+myYear+'/06/07 00:00:00');//更改日期
+        return myEndTime;
+    }
+
+    function countDown(){
+        var mydate = new Date();
+        var year = '2025';
+        var EndTime = getEndTime(year);
+        var NowTime = new Date();
+        if( (EndTime.getTime() - NowTime.getTime() ) < 0){
+            year = mydate.getFullYear() + 1;
+            EndTime = getEndTime(year);
+        }
+        var t = EndTime.getTime() - NowTime.getTime();
+
+
+
+        var d=Math.floor(t/1000/60/60/24);
+        var h=Math.floor(t/1000/60/60%24);
+        var m=Math.floor(t/1000/60%60);
+        var s=Math.floor(t/1000%60);
+
+        document.getElementById('day').innerText = d;
+        document.getElementById('hour').innerText = h;
+        document.getElementById('minute').innerText = m;
+        document.getElementById('second').innerText = s;
+    } 
+    setInterval(countDown,1000);
+</script>
+
+<!-- 看板娘管理 -->
+
+<!--
+<script src="https://l2dwidget.js.org/lib/L2Dwidget.min.js"></script>
+<script type="text/javascript">
+	L2Dwidget
+	.on('*', (name) => {
+	console.log('%c EVENT ' + '%c -> ' + name, 'background: #222; color: yellow', 'background: #fff; color: #000')
+	})
+	.init({
+		display: {
+			// 居左
+			"position": "right",
+			// 宽度
+			"width": 150,
+			// 高度
+			"height": 250,
+			// 距左右
+			"hOffset": 10,
+			// 距下
+			"vOffset": 40
+		},
+ 
+		mobile: {
+			// 移动端，false为关闭
+			"show": true,
+			"scale": 0.5
+		},
+ 
+		dialog: {
+		// 开启对话框，false为关闭
+			enable: true,
+			script: {
+				// 每空闲 10 秒钟，显示一条一言
+				'every idle 10s': '$hitokoto$',
+				// 当触摸到角色身体
+				'tap body': '哎呀！别碰我！',
+				// 当触摸到角色头部
+				'tap face': '你干嘛，哎呦。'
+			}
+		}
+	});
+</script>
+-->
+
+<!--由江鸟更改部分代码，修正了背景图不能全屏 -->

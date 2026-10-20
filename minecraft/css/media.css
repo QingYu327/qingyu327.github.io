@@ -1,0 +1,132 @@
+/* PE端响应式布局 */
+@media screen and (max-width:540px) {
+
+    /* 导航 */
+    .nav-main {
+        justify-content: center;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .title:before {
+        display: none;
+    }
+
+    /* 轮播图 */
+    .slide-shell {
+        height: 90vh;
+    }
+
+    /* 下载游戏 */
+    .download-shell {
+        height: 81vh;
+    }
+
+    .download-main {
+        height: 80vh;
+        margin: 1vh auto;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .download-list {
+        height: 36vh;
+        width: 90%;
+    }
+    
+    /* 游戏手册 */
+    .manual-main {
+        height: 80vh;
+        flex-direction: column-reverse;
+    }
+
+    .manual-list, .manual-content {
+        height: 38vh;
+        width: 90%;
+    }
+
+    .manual-list {
+        border-radius: 5% 5% 2px 2px;
+
+    }
+
+    .manual-content {
+        border-radius: 2px 2px 5% 5%;
+        position: relative;
+    }
+
+    /* 底部信息 */
+    .bottom-shell {
+        height: 170px;
+    }
+
+    .bottom-main {
+        height: 110px;
+    }
+
+    .server-infomation {
+        height: 52px;
+        width: 385px;
+    }
+
+    .web-infomation {
+        font-size: 15px;
+        height: 34px;
+    }
+
+    .view {
+        display: block;
+        height: 15px;
+        line-height: 15px;
+    }
+
+    /* PE端导航 */
+    .PE-nav-shell {
+        display: flex;
+    }
+}
+
+@media screen and (max-width:281px) {
+
+    /* 顶部导航 */
+    .title {
+        font-size: 17px;
+    }
+
+    /* 下载游戏 */
+    .download-title {
+        font-size: 15px;
+    }
+
+    .download-content {
+        font-size: 12px;
+    }
+
+    .download-button {
+        height: 38px;
+        width: 150px;
+        line-height: 38px;
+        margin-left: -75px;
+        font-size: 18px;
+    }
+
+    .download-list:nth-child(1):before {
+        height: 48px;
+        width: 48px;
+        top: -2.5vh;
+    }
+
+    .download-list:nth-child(2):before {
+        height: 48px;
+        width: 48px;
+        bottom: -2.5vh;
+    }
+
+    /* PE端导航 */
+    .PE-nav-main li {
+        font-size: 16px;
+    }
+
+}
